@@ -1,10 +1,5 @@
 package _07_abstract_examples.employee_example;
 
-import _07_abstract_examples.employee_example.Department;
-import _07_abstract_examples.employee_example.Employee;
-import _07_abstract_examples.employee_example.HourlyEmployee;
-import _07_abstract_examples.employee_example.SalariedEmployee;
-
 import java.time.LocalDate;
 
 public class Main {

@@ -1,10 +1,5 @@
 package _07_abstract_examples.car_example;
 
-import _07_abstract_examples.car_example.Boat;
-import _07_abstract_examples.car_example.Car;
-import _07_abstract_examples.car_example.DMV;
-import _07_abstract_examples.car_example.Vehicle;
-
 class Main {
 
     public static void main(String[] args) {

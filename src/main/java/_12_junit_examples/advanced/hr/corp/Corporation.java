@@ -1,6 +1,5 @@
 package _12_junit_examples.advanced.hr.corp;
 
-
 import _12_junit_examples.advanced.irs.TaxPayer;
 
 public class Corporation implements TaxPayer {

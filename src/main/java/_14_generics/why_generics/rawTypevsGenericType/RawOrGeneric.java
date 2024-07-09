@@ -14,6 +14,6 @@ public class RawOrGeneric {
         // Now we are using generics
         ArrayList<String> strings2 = new ArrayList<>();
         strings2.add("abc");
-//        strings2.add(5);
+//        strings2.add(5);   // compile error
     }
 }

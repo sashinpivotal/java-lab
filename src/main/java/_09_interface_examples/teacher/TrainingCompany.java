@@ -3,7 +3,7 @@ package _09_interface_examples.teacher;
 class TrainingCompany {
 
     public static void main(String[] args) {
-        // Reference variable type could be Interface
+        // Reference variable type could be Interface type
         ITeacher liveOne = new Trainer();
         ITeacher remoteOne = new OnlineTutorial();
 

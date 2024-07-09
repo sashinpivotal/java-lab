@@ -30,6 +30,5 @@ class JustAnotherClass {
         new MyClassWithGenericsWithTwoTypeParameters(
                 new String("x"),
                 new String("y"));
-
     }
 }
