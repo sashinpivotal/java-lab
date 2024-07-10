@@ -19,5 +19,30 @@ public class Main {
         String personInfo = person2.getPersonInfo();
         System.out.println(personInfo);
 
+        // TODO-classes-and-objects-01
+        // - Create "Account" class with the following
+        //   fields with appropriate types
+        //   - name
+        //   - balance
+        // - Add proper constructors
+        // - Add accessor methods
+        // - Override toString() method
+        // - Add the following two methods with proper
+        //   argument set and return value
+        //   - deposit(..)
+        //   - withdraw(..)
+        // - Create 2 instances of "Account" objects
+        //   (we will call it account1, account2)
+        //   with appropriate initial values
+        // - Display both accounts
+        // - Withdraw $30 from account1 and deposit
+        //   to account2
+        // - Make sure the withdrawal is possible
+        //   only when the balance is greater than
+        //   the amount of withdrawal
+        // - Display both accounts and make sure
+        //   the resulting balances of both accounts
+        //   reflect the correct balances
+
     }
 }
