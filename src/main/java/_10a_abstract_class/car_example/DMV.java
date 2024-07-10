@@ -1,0 +1,10 @@
+package _10a_abstract_class.car_example;
+
+public class DMV {
+
+    private Vehicle[] vehicles = new Vehicle[100];
+    private int currentIndex = 0;
+
+    public void register(Vehicle vehicle) {
+    }
+}
