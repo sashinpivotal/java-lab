@@ -3,6 +3,12 @@ package _02_java_basics;
 public class _1_Variables {
     public static void main(String[] args) {
 
+        // TODO-variables-00 (Optional)
+        // - Do "git checkout -b _02_java_basics"
+        //   before making any changes
+        // - After you are done, you can commit
+        //   the changes to the branch
+
         // TODO-variables-01:
         // - Create a variable name and assign your name to it.
         // - Print out a message saying "Hello, my name is ____" with your name in the blank.

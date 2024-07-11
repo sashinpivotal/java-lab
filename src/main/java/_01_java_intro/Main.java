@@ -14,7 +14,8 @@ public class Main {
         // - Run this app using shortcut key "CTRL+SHIFT+R"
         // - Rerun the app using shortcut key "CTRL+R" thereafter
 
-        // TODO-IDE-02: configure javadoc for context sensitive
+        // TODO-IDE-02: configure IDE so that you can display
+        //   documents of all JDK classes
         // - Download JDK 11 javadoc zip file
         //   from https://www.oracle.com/java/technologies/javase-jdk11-doc-downloads.html
         // - Configure JDK documentation so that
