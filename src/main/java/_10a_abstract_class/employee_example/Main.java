@@ -21,7 +21,19 @@ public class Main {
         marketing.addEmployee(david);
         marketing.addEmployee(bryce);
 
-        marketing.listAllEmployees();
-        marketing.payEmployees();
+        double departmentTotalMonthlyCompensation
+                = marketing.computeDepartmentTotalMonthlyCompensation();
+        System.out.println("department total monthly compensation = "
+                            + departmentTotalMonthlyCompensation);
+
+        // TODO-abstract-class-03
+        // - Write ContractEmployee class which extends
+        //   Employee abstract class
+        // - ContractEmployee class the following fields
+        //   - double[] contractWorks;
+        //   - the monthly compensation of a ContractEmployee
+        //     is the sum of contractWorks array
+        // - Create one or two ContractEmployee objects
+        //   and register them to the department
     }
 }

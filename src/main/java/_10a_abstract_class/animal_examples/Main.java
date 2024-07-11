@@ -10,11 +10,31 @@ public class Main {
         animals[currentIndex++] = cat1;
         Cat cat2 = new Cat("mary");
         animals[currentIndex++] = cat2;
-        Dog dog1 = new Dog("chally");
+        Dog dog1 = new Dog("tom");
         animals[currentIndex++] = dog1;
         Bird paul = new Bird("paul");
         animals[currentIndex++] = paul;
         AnimalHospital animalHospital = new AnimalHospital(animals, currentIndex);
         animalHospital.letAllAnimalsBreathe();
+
+        // TODO-abstract-class-01
+        // - Another another abstract method to
+        //   the Animal abstract class
+        //   - makeSound()
+        // - Have all concrete classes implement
+        //   the newly added abstract method
+        //   as following
+        //   - Dog makes "Yo" sound
+        //   - Cat makes "Meo" sound
+        //   - Bird makes "ChitChit" sound
+        // - Implement the following method in the
+        //   AnimalHospital class
+        //   - letAllAnimalsMakeSound()
+        // - Invoke letAllAnimalsMakeSound() method
+        //   in this main method
+
+        // TODO-abstract-class-02
+        // - Create Monkey class which extends
+        //   Animal abstract class
     }
 }

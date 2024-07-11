@@ -15,7 +15,6 @@ public class _2_StringBuilder {
         // - Delete a part of the StringBuilder
         //   and print the result.
 
-
     }
 }
 

@@ -15,16 +15,13 @@ public class Department {
         employees[currentIndex++] = employee;
     }
 
-    public void listAllEmployees() {
+    public double computeDepartmentTotalMonthlyCompensation() {
+        double departmentTotalMonthlyCompensation = 0.0;
         for (int i = 0; i < currentIndex; i++) {
-            System.out.println(employees[i].toString());
+            departmentTotalMonthlyCompensation
+                    += employees[i].computeCompensation();
         }
-    }
-
-    public void payEmployees() {
-        for (int i = 0; i < currentIndex; i++) {
-            employees[i].pay();
-        }
+        return departmentTotalMonthlyCompensation;
     }
 
 }

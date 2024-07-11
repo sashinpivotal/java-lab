@@ -25,18 +25,18 @@ public class Main {
         //   - name
         //   - balance
         // - Add proper constructors
-        // - Add accessor methods
+        // - Add proper accessor methods
         // - Override toString() method
         // - Add the following two methods with proper
-        //   argument set and return value
+        //   arguments and return value
         //   - deposit(..)
         //   - withdraw(..)
         // - Create 2 instances of "Account" objects
-        //   (we will call it account1, account2)
+        //   (we will call them as account1, account2)
         //   with appropriate initial values
         // - Display both accounts
         // - Withdraw $30 from account1 and deposit
-        //   to account2
+        //   the same amount into account2
         // - Make sure the withdrawal is possible
         //   only when the balance is greater than
         //   the amount of withdrawal
