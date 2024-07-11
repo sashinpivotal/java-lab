@@ -1,15 +1,21 @@
 package _03_looping_and_branching._1_looping;
 
 public class _2_EnhancedFor {
+
     public static void main(String[] args) {
+        // TODO-looping-04
+        // - Use an enhanced for loop to iterate
+        //   over an array and print each element.
+
+        // TODO-looping-05
+        // - Calculate the sum of all elements
+        //   in an array using an enhanced for loop
+
+        // TODO-looping-06
+        // - Find the maximum value in an
+        //   array using an enhanced for loop
     }
 }
-
-// Exercise: Use an enhanced for loop to iterate over an array and print each element.
-
-// Exercise: Calculate the sum of all elements in an array using an enhanced for loop.
-
-// Exercise: Find the maximum value in an array using an enhanced for loop.
 
 
 

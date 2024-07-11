@@ -4,7 +4,7 @@ public class IfElseIf_1 {
 
     public static void main(String[] args) {
 
-        // TODO-_2_conditionals-01
+        // TODO-conditionals-01
         // - Declare an integer variable `a` and set its value to 5.
         // - Write an if/else if/else statement that checks if
         //   `a` is positive, zero or negative, and

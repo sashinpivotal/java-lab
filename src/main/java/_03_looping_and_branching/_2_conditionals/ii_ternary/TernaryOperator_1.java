@@ -3,7 +3,7 @@ package _03_looping_and_branching._2_conditionals.ii_ternary;
 public class TernaryOperator_1 {
     public static void main(String[] args) {
 
-        // TODO-_2_conditionals-03
+        // TODO-conditionals-03
         // - Declare an integer variable `a` and set
         //   its value to -23.
         // - Use a ternary operator to

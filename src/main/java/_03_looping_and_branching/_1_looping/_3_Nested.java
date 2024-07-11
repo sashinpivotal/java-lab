@@ -2,6 +2,18 @@ package _03_looping_and_branching._1_looping;
 
 public class _3_Nested {
     public static void main(String[] args) {
+
+        // TODO-looping-07
+        /*
+        Print a multiplication table for numbers
+        1 to 5 using nested for loops.
+
+        1 2 3 4 5
+        2 4 6 8 10
+        3 6 9 12 15
+        4 8 12 16 20
+        5 10 15 20 25
+        */
     }
 }
 

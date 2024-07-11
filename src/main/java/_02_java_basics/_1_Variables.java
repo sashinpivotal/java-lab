@@ -7,7 +7,7 @@ public class _1_Variables {
         // - Do "git checkout -b _02_java_basics"
         //   before making any changes
         // - After you are done, you can commit
-        //   the changes to the branch
+        //   the changes
 
         // TODO-variables-01:
         // - Create a variable name and assign your name to it.

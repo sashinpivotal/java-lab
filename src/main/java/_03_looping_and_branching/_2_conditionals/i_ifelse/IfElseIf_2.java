@@ -3,7 +3,7 @@ package _03_looping_and_branching._2_conditionals.i_ifelse;
 public class IfElseIf_2 {
     public static void main(String[] args) {
 
-        // TODO-_2_conditionals-02
+        // TODO-conditionals-02
         // - Declare an integer variable`a` and
         //   set its value to 30.
         // - Use an if/else if/else statement to

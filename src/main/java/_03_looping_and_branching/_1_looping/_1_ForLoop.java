@@ -3,16 +3,18 @@ package _03_looping_and_branching._1_looping;
 public class _1_ForLoop {
     public static void main(String[] args) {
 
+        // TODO-looping-01
+        // - Print numbers from 1 to 10 using a for loop
+
+        // TODO-looping-02
+        // - Print all even numbers from 2 to 20 using for loop
+
+        // TODO-looping-02
+        // - Use a for loop to iterate over an array
+        //   of ints and print each element.
+
     }
 }
-
-// Exercise: Print numbers from 1 to 10 using a for loop.
-
-// Exercise: Print all even numbers from 2 to 20 using for loop.
-
-// Exercise: Use a for loop to iterate over an array of ints and print each element.
-
-
 
 
 
