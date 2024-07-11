@@ -3,15 +3,14 @@ package _03_looping_and_branching._2_conditionals.iii_switch;
 public class SwitchCase_1 {
     public static void main(String[] args) {
         // TODO-conditionals-05
-        /*
-            Exercise:
-            Create a variable `day` with a value 3.
-            Use switch/case to determine the name of the day (1:Monday, 2:Tuesday, etc.)
-            and print the result.
-            Don't forget about the `default` case.
-            Run the program a few times,
-            each time change the `day` value.
-         */
+        // - Create a variable `day` with a value 3.
+        // - Use switch/case to determine the name of
+        //   the day (1:Monday, 2:Tuesday, etc.)
+        //   and print the result.
+        // - Don't forget about the `default` case.
+        // - Run the program a few times,
+        //   each time change the `day` value.
+
     }
 }
 

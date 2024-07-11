@@ -1,6 +1,6 @@
-package _17_junit5.advanced.hr.personnel;
+package _17_junit5._2_advanced.hr.personnel;
 
-import _17_junit5.advanced.irs.TaxPayer;
+import _17_junit5._2_advanced.irs.TaxPayer;
 import java.time.LocalDate;
 
 public abstract class Employee implements TaxPayer {

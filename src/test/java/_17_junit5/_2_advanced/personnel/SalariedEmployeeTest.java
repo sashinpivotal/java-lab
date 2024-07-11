@@ -1,7 +1,7 @@
-package _17_junit5.advanced.personnel;
+package _17_junit5._2_advanced.personnel;
 
-import _17_junit5.advanced.hr.personnel.SalariedEmployee;
-import _17_junit5.advanced.hr.personnel.TooMuchSalaryException;
+import _17_junit5._2_advanced.hr.personnel.SalariedEmployee;
+import _17_junit5._2_advanced.hr.personnel.TooMuchSalaryException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

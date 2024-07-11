@@ -7,11 +7,13 @@ public class _1_ForLoop {
         // - Print numbers from 1 to 10 using a for loop
 
         // TODO-looping-02
-        // - Print all even numbers from 2 to 20 using for loop
+        // - Print all even numbers from 2 to 20
+        //   using for loop
 
         // TODO-looping-02
-        // - Use a for loop to iterate over an array
-        //   of ints and print each element.
+        // - Use a for loop to iterate over the array
+        //   of ints below and print each element.
+        int[] ints = {3, 7, 2, 6, 9, 1, 5};
 
     }
 }

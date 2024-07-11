@@ -59,7 +59,7 @@ public class Main {
         System.out.println("computeSumWithValuesGreaterThan10UsingStreamParallel = "
                 + computeSumWithValuesGreaterThan10UsingStreamParallel(list));
 
-        // TODO-04 :
+        // TODO-streams-04:
         // - Create Stream-based method, in which you filter only
         //   the numbers less than 9 and then display the max number
         List<String> numberStrings = Arrays.asList("3", "8", "14", "11");

@@ -12,8 +12,10 @@ public class _2_EnhancedFor {
         //   in an array using an enhanced for loop
 
         // TODO-looping-06
-        // - Find the maximum value in an
-        //   array using an enhanced for loop
+        // - Use a for loop to iterate over the array
+        //   of ints below and print each element
+        //   using enhanced for loop
+
     }
 }
 

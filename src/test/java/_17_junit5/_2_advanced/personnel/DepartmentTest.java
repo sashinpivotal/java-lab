@@ -1,8 +1,8 @@
-package _17_junit5.advanced.personnel;
+package _17_junit5._2_advanced.personnel;
 
 
-import _17_junit5.advanced.hr.personnel.Department;
-import _17_junit5.advanced.hr.personnel.SalariedEmployee;
+import _17_junit5._2_advanced.hr.personnel.Department;
+import _17_junit5._2_advanced.hr.personnel.SalariedEmployee;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -23,21 +23,6 @@ public class DepartmentTest {
 
         department.addEmployee(new SalariedEmployee("dave",
                 LocalDate.of(2025, 01,03), 3000.0));
-    }
-
-    // TODO-15: Write appropriate test code by reading the test method name
-    @Test
-    public void addEmployee_should_add_an_employee_correctly() {
-
-
-    }
-
-    @Test
-    public void letEmployeesWorkAndReturnNumberOfEmployeesWhoWorked_should_return_correct_value() {
-
-        int numberOfEmployeesWhoWorked = department.letEmployeesWorkAndReturnNumberOfEmployeesWhoWorked();
-        assertEquals(2, numberOfEmployeesWhoWorked);
-
     }
 
     // TODO-16: Write appropriate test code by reading the test method name

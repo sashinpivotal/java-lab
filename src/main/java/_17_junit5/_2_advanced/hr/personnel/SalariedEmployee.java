@@ -1,4 +1,4 @@
-package _17_junit5.advanced.hr.personnel;
+package _17_junit5._2_advanced.hr.personnel;
 
 import java.time.LocalDate;
 

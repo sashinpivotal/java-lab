@@ -28,8 +28,9 @@ public class Main {
 
         // TODO-collections-01
         // - Refactor this code and other codes in the same
-        //   package to use a collection object (instead of
-        //   an array)
+        //   package to use an appropriate collection object
+        //   (instead of an array)
+        // - Make sure it runs successfully as before
 
     }
 }

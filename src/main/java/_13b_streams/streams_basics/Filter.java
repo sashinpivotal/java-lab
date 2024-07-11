@@ -13,7 +13,8 @@ public class Filter {
                 .filter(p -> p > 6)
                 .forEach(p -> System.out.println(p + " "));
 
-        // TODO-01: from "numbers" list above, display only odd numbers
+        // TODO-streams-01:
+        // - from "numbers" list above, display only odd numbers
 
         // from a list of number strings, select numbers
         // whose numeric value is greater than 10 and
@@ -26,9 +27,10 @@ public class Filter {
                 .sum();                    // perform sum operation
         System.out.println(sum1);
 
-        // TODO-02: from "numberStrings" above, select only
-        //          even numbers and then sum their
-        //          square values
+        // TODO-streams-02:
+        // - from "numberStrings" above, select only
+        //   even numbers and then sum their
+        //   square values
 
         // perform the same as above in parallel
         int sum2 = numberStrings.parallelStream()                  // convert the List to  parallel stream
@@ -36,9 +38,6 @@ public class Filter {
                 .filter(i -> i > 10)       // filter only the number > 10  (Predicate)
                 .sum();                      // perform sum operation
         System.out.println(sum2);
-
-        // TODO-03: Rewrite the solution of TODO-02 using
-        //          parallel stream
 
     }
 }

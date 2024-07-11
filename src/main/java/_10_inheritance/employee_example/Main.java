@@ -28,15 +28,15 @@ public class Main {
 
         // TODO-inheritance-02
         // - Write ContractEmployee class which extends
-        //   Employee abstract class
+        //   Employee parent class
         // - ContractEmployee class the following fields
-        //   - double[] contractWorks;
+        //   - double[] contractPayments;
         //   - the monthly compensation of a ContractEmployee
-        //     is the sum of contractWorks array
+        //     is the sum of contractPayments array
         // - Create one or two ContractEmployee objects
         //   and register them to the department
         // - Run this code and verify that total monthly
         //   compensation includes the compensation of
-        //   the contract employees
+        //   the contract employee(s)
     }
 }

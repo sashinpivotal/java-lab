@@ -1,4 +1,4 @@
-package _17_junit5.simple;
+package _17_junit5._1_simple;
 
 public class Calculator {
 

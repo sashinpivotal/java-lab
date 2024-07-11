@@ -1,4 +1,4 @@
-package _17_junit5.simple;
+package _17_junit5._1_simple;
 
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;

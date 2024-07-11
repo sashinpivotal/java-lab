@@ -3,14 +3,11 @@ package _03_looping_and_branching._2_conditionals.iii_switch;
 public class SwitchCase_2 {
     public static void main(String[] args) {
         // TODO-conditionals-06
-        /*
-            Exercise:
-            Create a `char` variable with a value 'a'.
-            Use switch/case to check if it's a vowel or a consonant.
-            Print the result.
-            Run the program a few times,
-            each time change the `a` value.
-         */
+        // - Create a `char` variable with a value 'a'.
+        // - Use switch/case to check if it's a vowel or a consonant.
+        // - Print the result.
+        // - Run the program a few times,
+        //   each time change the `a` value.
     }
 }
 

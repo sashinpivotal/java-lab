@@ -1,6 +1,6 @@
-package _17_junit5.advanced.personnel;
+package _17_junit5._2_advanced.personnel;
 
-import _17_junit5.advanced.hr.personnel.HourlyEmployee;
+import _17_junit5._2_advanced.hr.personnel.HourlyEmployee;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

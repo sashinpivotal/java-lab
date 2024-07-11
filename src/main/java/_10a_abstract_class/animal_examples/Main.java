@@ -18,7 +18,7 @@ public class Main {
         animalHospital.letAllAnimalsBreathe();
 
         // TODO-abstract-class-01
-        // - Another another abstract method to
+        // - Add another abstract method below to
         //   the Animal abstract class
         //   - makeSound()
         // - Have all concrete classes implement

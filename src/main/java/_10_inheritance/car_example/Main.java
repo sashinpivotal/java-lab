@@ -4,6 +4,8 @@ class Main {
 
     public static void main(String[] args) {
 
+        // Create DMV object, to which
+        // vehicle object is registered
         DMV dmv = new DMV();
 
         Car car = new Car("ABC123");
@@ -27,6 +29,9 @@ class Main {
         //   Vehicle parent class
         // - Create a Truck object and register
         //   it with the DMV
+        // - Run this code again and verify
+        //   the moveTo() method of the
+        //   subclass is being invoked
 
     }
 }
