@@ -1,11 +1,11 @@
-package _12_lambda;
+package _12_lambda._06_custom_functional_interface;
 
 @FunctionalInterface
 public interface MyFunctionalInterfaceLower {
     String makeLowerCase(String string);
 }
 
-class Main3 {
+class Main {
     public static void main(String[] args) {
 
         // TODO-03:

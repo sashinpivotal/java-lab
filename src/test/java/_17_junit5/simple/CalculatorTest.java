@@ -43,15 +43,18 @@ public class CalculatorTest {
         assertEquals(-1, subtractedValue);
     }
 
-    // TODO-01 - write "positive" test first and then target code
-    //        for the multiply() method in TDD style
+    // TODO-junit5-01
+    // - write "positive" test first and then target code
+    //   for the multiply() method in TDD style
 
-    // TODO-02 - write "positive" test first and target code
-    //        for the divide() method in TDD style
+    // TODO-junit5-02
+    // - write "positive" test first and target code
+    //     for the divide() method in TDD style
 
-    // TODO-03 - write "negative" test for the divide() method
-    //        so that when the divisor is 0, the divide() method
-    //        should throw IllegalArgumentException
+    // TODO-junit5-03
+    // - write "negative" test for the divide() method
+    //   so that when the divisor is 0, the divide() method
+    //   should throw IllegalArgumentException
 
 
     @Test
@@ -110,7 +113,8 @@ public class CalculatorTest {
         assertEquals(expectedResult, actualResult);
     }
 
-    // TODO-04 - write parameterized test for
-    //           multiply() method
+    // TODO-junit5-04
+    // - write parameterized test for
+    //   multiply() method
 
 }

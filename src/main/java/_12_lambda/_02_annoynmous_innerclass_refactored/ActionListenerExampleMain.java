@@ -1,4 +1,4 @@
-package _12_lambda._01_functional_interface;
+package _12_lambda._02_annoynmous_innerclass_refactored;
 
 import javax.swing.*;
 import java.awt.*;

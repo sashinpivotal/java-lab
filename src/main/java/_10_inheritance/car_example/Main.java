@@ -22,5 +22,11 @@ class Main {
             vehicles[i].moveTo("somewhere");
         }
 
+        // TODO-inheritance-01
+        // - Write Truck class which extends
+        //   Vehicle parent class
+        // - Create a Truck object and register
+        //   it with the DMV
+
     }
 }

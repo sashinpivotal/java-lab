@@ -1,11 +1,6 @@
-package _12_lambda;
+package _12_lambda._01_simple_lambda;
 
-@FunctionalInterface
-public interface Calculator {
-    int calculate(int x, int y);
-}
-
-class Main {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -18,7 +13,7 @@ class Main {
         int result2 = divider.calculate(30, 10);
         System.out.println("divide result = " + result2);
 
-        // TODO-01:
+        // TODO-lambda-01:
         // - Create Calculator object that adds two numbers
         //   and assign it into a variable called "adder"
         // - Use "adder" object to perform adding two numbers
@@ -27,7 +22,7 @@ class Main {
         myMethod(((x, y) -> x * y), (x, y) -> x / y);
         myMethod(multiplier, divider);
 
-        // TODO-02:
+        // TODO-lambda-02:
         // - Create "myMethod3" method that takes the following
         //   3 arguments and performs the calculation with x and y
         //   - Calculator object
@@ -56,3 +51,4 @@ class Main {
     }
 
 }
+

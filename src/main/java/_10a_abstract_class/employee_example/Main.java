@@ -35,5 +35,8 @@ public class Main {
         //     is the sum of contractWorks array
         // - Create one or two ContractEmployee objects
         //   and register them to the department
+        // - Run this code and verify that total monthly
+        //   compensation includes the compensation of
+        //   the contract employees
     }
 }

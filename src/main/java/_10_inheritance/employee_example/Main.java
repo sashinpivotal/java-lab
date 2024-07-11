@@ -7,13 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
         Employee[] employees = new Employee[100];
-        Department marketingDepartment
-                = new Department("marketing", employees);
-
-        Employee sang = new Employee("sang",
-                LocalDate.of(2020, 03, 04));
-        Employee nancy = new Employee("nancy",
-                LocalDate.of(2010, 02, 04));
+        Department marketing = new Department(
+                "marketing", employees);
 
         Employee david = new SalariedEmployee("david",
                 LocalDate.of(1999, 12, 04),
@@ -23,13 +18,25 @@ public class Main {
                 200,
                 10.0);
 
-        marketingDepartment.addEmployee(sang);
-        marketingDepartment.addEmployee(nancy);
-        marketingDepartment.addEmployee(david);
-        marketingDepartment.addEmployee(bryce);
+        marketing.addEmployee(david);
+        marketing.addEmployee(bryce);
 
-        marketingDepartment.listAllEmployees();
-        marketingDepartment.payEmployees();
+        double departmentTotalMonthlyCompensation
+                = marketing.computeDepartmentTotalMonthlyCompensation();
+        System.out.println("department total monthly compensation = "
+                            + departmentTotalMonthlyCompensation);
 
+        // TODO-inheritance-02
+        // - Write ContractEmployee class which extends
+        //   Employee abstract class
+        // - ContractEmployee class the following fields
+        //   - double[] contractWorks;
+        //   - the monthly compensation of a ContractEmployee
+        //     is the sum of contractWorks array
+        // - Create one or two ContractEmployee objects
+        //   and register them to the department
+        // - Run this code and verify that total monthly
+        //   compensation includes the compensation of
+        //   the contract employees
     }
 }
