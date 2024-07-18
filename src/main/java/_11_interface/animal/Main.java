@@ -17,15 +17,8 @@ public class Main {
         }
 
         // TODO-interface-01
-        // - Add another interface called
-        //   ISing with the following method
-        //   - sing()
-        // - Have all concrete classes implement
-        //   the newly added interface
-
-        // TODO-interface-02
         // - Create Monkey class which implements
-        //   both IBreathable and ISing interfaces
+        //   IBreathable interface
 
     }
 }

@@ -12,7 +12,7 @@ public class Employee {
         this.hireDate = hireDate;
     }
 
-    public double computeCompensation(){
+    public double computeMonthlyCompensation(){
         return 0.0;
     }
 

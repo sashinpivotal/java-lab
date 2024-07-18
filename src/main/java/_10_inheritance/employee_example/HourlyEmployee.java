@@ -25,7 +25,7 @@ public class HourlyEmployee extends Employee {
     }
 
     @Override
-    public double computeCompensation() {
+    public double computeMonthlyCompensation() {
         return numberOfHoursWorkedPerMonth * hourlyRate;
     }
 

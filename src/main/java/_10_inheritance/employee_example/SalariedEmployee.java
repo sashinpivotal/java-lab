@@ -12,7 +12,7 @@ public class SalariedEmployee extends Employee {
     }
 
     @Override
-    public double computeCompensation() {
+    public double computeMonthlyCompensation() {
         return monthlySalary;
     }
 

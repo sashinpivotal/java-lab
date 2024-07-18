@@ -19,7 +19,7 @@ public class Department {
         double departmentTotalMonthlyCompensation = 0.0;
         for (int i = 0; i < currentIndex; i++) {
             departmentTotalMonthlyCompensation
-                    += employees[i].computeCompensation();
+                    += employees[i].computeMonthlyCompensation();
         }
         return departmentTotalMonthlyCompensation;
     }

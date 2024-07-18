@@ -11,9 +11,9 @@ class Employee {
     }
 
     public void goToWork() throws MyOwnCheckedException {
-        Car c = new Car("ABC123");
+        Car car = new Car("ABC123");
         try {
-            c.moveTo("Moon");
+            car.moveTo("Moon");
         } catch (IllegalArgumentException illegalArgumentException) {
             System.out.println(illegalArgumentException.getMessage());
             throw new TrafficIsHeavyRuntimeException("my business level exception message");
