@@ -3,6 +3,9 @@ package _10a_abstract_class.employee_example;
 import java.time.LocalDate;
 import java.util.Objects;
 
+// TODO-abstract-class-04
+// - Observe that this Employee class is an abstract
+//   class
 public abstract class Employee {
 
     private String name;
