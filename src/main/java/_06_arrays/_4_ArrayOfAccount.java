@@ -2,7 +2,7 @@ package _06_arrays;
 
 import java.util.Arrays;
 
-public class _5_ArrayOfAccount {
+public class _4_ArrayOfAccount {
 
     public static void main(String[] args) {
 
