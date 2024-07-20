@@ -5,17 +5,16 @@ public class _2_EnhancedFor {
     public static void main(String[] args) {
         // TODO-looping-04
         // - Use an enhanced for loop to iterate
-        //   over an array and print each element.
+        //   over an array below and print each element.
+        int[] ints = {3, 7, 2, 6, 9, 1, 5};
 
         // TODO-looping-05
         // - Calculate the sum of all elements
-        //   in an array using an enhanced for loop
+        //   in the ints array above using an enhanced for loop
 
         // TODO-looping-06
-        // - Use a for loop to iterate over the array
-        //   of ints below and print each element
-        //   using enhanced for loop
-
+        // - Calculate the average of the elements
+        //   in the ints array above using an enhanced for loop
     }
 }
 
