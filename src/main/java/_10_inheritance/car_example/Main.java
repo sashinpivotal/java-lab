@@ -4,8 +4,8 @@ class Main {
 
     public static void main(String[] args) {
 
-        // Create DMV object, to which
-        // vehicle object is registered
+        // Create DMV (Department of Motor Vehicles)
+        // object, to which vehicle objects are registered
         DMV dmv = new DMV();
 
         Car car = new Car("ABC123");
@@ -24,7 +24,7 @@ class Main {
             vehicles[i].moveTo("somewhere");
         }
 
-        // TODO-inheritance-01
+        // TODO-inheritance-02
         // - Write Truck class which extends
         //   Vehicle parent class
         // - Create a Truck object and register

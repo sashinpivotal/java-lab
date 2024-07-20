@@ -1,5 +1,9 @@
 package _10_inheritance.car_example;
 
+// TODO-inheritance-01
+// - Observe that Vehicle is a concrete class
+//   that has a concrete method called
+//   moveTo(..)
 public class Vehicle {
 
     private String vin;
@@ -12,8 +16,8 @@ public class Vehicle {
         return vin;
     }
 
-    public void moveTo(String location){
-        System.out.println("moved by Vehicle");
+    public void moveTo(String destination){
+        System.out.println("moved by Vehicle to " + destination);
     };
 }
 

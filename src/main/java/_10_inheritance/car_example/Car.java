@@ -20,7 +20,7 @@ public class Car extends Vehicle {
 
     @Override
     public void moveTo(String destination) {
-        System.out.println("moveTo by Car");
+        System.out.println("moveTo by Car to " + destination);
     }
 
     public void onlyInCarClassMethod() {

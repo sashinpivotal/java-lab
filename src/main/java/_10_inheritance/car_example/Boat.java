@@ -8,7 +8,7 @@ public class Boat extends Vehicle {
 
     @Override
     public void moveTo(String destination) {
-        System.out.println("moved by Boat");
+        System.out.println("moved by Boat to " + destination);
     }
 
 }

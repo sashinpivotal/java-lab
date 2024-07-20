@@ -26,7 +26,7 @@ public class Main {
         System.out.println("department total monthly compensation = "
                             + departmentTotalMonthlyCompensation);
 
-        // TODO-inheritance-02
+        // TODO-inheritance-04
         // - Write ContractEmployee class which extends
         //   Employee parent class
         // - ContractEmployee class has the following fields
@@ -34,7 +34,7 @@ public class Main {
         //   - the monthly compensation of a ContractEmployee
         //     is the sum of contractPayments array
         // - Create a ContractEmployee object
-        //   with some values to the contractPayments array
+        //   with some test values to the contractPayments array
         //   and add him/her to the department
         // - Run this code and verify that total monthly
         //   compensation includes the compensation of
