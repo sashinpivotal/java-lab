@@ -16,8 +16,8 @@ public class Main {
         // Create Person object using a constructor
         // with arguments
         Person person2 = new Person("Cindy", 32);
-        String personInfo = person2.getPersonInfo();
-        System.out.println(personInfo);
+        String personInfo2 = person2.getPersonInfo();
+        System.out.println(personInfo2);
 
         // TODO-classes-and-objects-01
         // - Create "Account" class with the following
@@ -27,8 +27,8 @@ public class Main {
         // - Add proper constructors
         // - Add proper accessor methods
         // - Override toString() method
-        // - Add the following two methods with proper
-        //   arguments and return value
+        // - Add the following two business methods with proper
+        //   arguments and return types
         //   - deposit(..)
         //   - withdraw(..)
         // - Create 2 instances of "Account" objects
