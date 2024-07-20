@@ -9,11 +9,11 @@ public class Main {
         //   terminal window within the IntelliJ
         // - Type "java -version"
 
-        // TODO-IDE-01
+        // TODO-IDE-01: shortcut keys for running an app
         // - Run this app using shortcut key "CTRL+SHIFT+R"
         // - Rerun the app using shortcut key "CTRL+R" thereafter
 
-        // TODO-IDE-02:
+        // TODO-IDE-02: context-sensitive Javadoc
         // You are going to configure IntelliJ so that
         // you can display Javadoc of all JDK classes.
         // - Download and unzip JDK 11 javadoc zip file
@@ -35,7 +35,7 @@ public class Main {
         //   (Instructor will demonstrate how it is done.)
         System.out.println("This is another line in the program");
 
-        // TODO-IDE-03
+        // TODO-IDE-03: TODO's in IntelliJ
         // - Click "TO DO" at the bottom of the IntelliJ
         //   to display all exercise tasks to be performed
         //   (Instructor will demonstrate how it is done.)
