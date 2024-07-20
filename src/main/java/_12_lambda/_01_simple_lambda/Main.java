@@ -4,25 +4,30 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Example of assigning lambda's into variables
+        // TODO-lambda-02:
+        // - Study the example of assigning lambda objects
+        //   into the variables
         Calculator multiplier = (x, y) -> x * y;
         Calculator divider = (x, y) -> x / y;
 
+        // - Study how lambda objects are now used
         int result1 = multiplier.calculate(20, 30);
         System.out.println("multiply result = " + result1);
         int result2 = divider.calculate(30, 10);
         System.out.println("divide result = " + result2);
 
-        // TODO-lambda-01:
         // - Create Calculator object that adds two numbers
         //   and assign it into a variable called "adder"
         // - Use "adder" object to perform adding two numbers
 
-        // Example of passing lambda's as method arguments
+        // TODO-lambda-03:
+        // - Study how myMethod(..) defined after this method
+        //   receives lambda objects as arguments
+        // - Study how you invoke the method passing two
+        //   lambda objects
         myMethod(((x, y) -> x * y), (x, y) -> x / y);
         myMethod(multiplier, divider);
 
-        // TODO-lambda-02:
         // - Create "myMethod3" method that takes the following
         //   3 arguments and performs the calculation with x and y
         //   - Calculator object
@@ -33,10 +38,16 @@ public class Main {
         // - Call "myMethod3" method with Calculator object
         //   that performs multiplication and display the result
 
-        // Example of returning lambda
+        // TODO-lambda-04:
+        // - Study how the myMethod2() defined after this method
+        //   returns an lambda object as a return value
         Calculator calculator = myMethod2();
         int result3 = calculator.calculate(10, 20);
         System.out.println("result3 = " + result3);
+
+        // - Write myMethod4 that returns a lambda object
+        //   that adds two numbers
+        // - Invoke myMethod4 and call the calculate method
 
     }
 
