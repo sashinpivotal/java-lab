@@ -17,13 +17,17 @@ public class _1_ArrayOfInt {
         // TODO-arrays-01
         // - Compute the sum and average value of the "ints"
         //   array
+        // - Print the result
 
         // TODO-arrays-02
         // - Find the largest number from the "ints" array
+        // - Print the result
 
         // TODO-arrays-03
         // - Change each number in the array by multiplying
-        //   by 2.
+        //   by 2. In other words, the "ints" array
+        //   should have {6, 18, 12, 6, 2, 20, 10}
+        // - Display the array before and after
 
     }
 }

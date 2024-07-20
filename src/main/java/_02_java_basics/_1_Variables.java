@@ -5,10 +5,13 @@ public class _1_Variables {
 
         // TODO-variables-00 (Optional)
         // - Do "git checkout -b _02_java_basics"
-        //   before making any changes (only if
-        //   you want to keep whatever changes
-        //   you make in this module in a separate
-        //   branch)
+        //   before making any changes
+        //   - this will allow you to retrieve any
+        //     changes from the remote repository
+        //     without experiencing merge conflict
+        // - Buf if you are comfortable with handling
+        //   possible merge conflict, you can start making
+        //   changes in the master/main branch
         // - Regardless you use different branch or not,
         //   when you are done with your change,
         //   you can commit the changes by

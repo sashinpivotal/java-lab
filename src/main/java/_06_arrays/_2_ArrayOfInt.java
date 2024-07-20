@@ -57,6 +57,4 @@ public interface _2_ArrayOfInt {
 
     }
 
-
-
 }
