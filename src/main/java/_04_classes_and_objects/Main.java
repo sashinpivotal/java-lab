@@ -40,9 +40,13 @@ public class Main {
         // - Make sure the withdrawal is possible
         //   only when the balance is greater than
         //   the amount of withdrawal
-        // - Display both accounts and make sure
-        //   the resulting balances of both accounts
-        //   reflect the correct balances
+        //   - when balance is less than the amount
+        //   - just return - no need to throw an
+        //     exception for now
+        // - Display both accounts before and after
+        //   the withdrawal and deposit operations
+        // - Make sure both accounts
+        //   have the correct balances
 
     }
 }
