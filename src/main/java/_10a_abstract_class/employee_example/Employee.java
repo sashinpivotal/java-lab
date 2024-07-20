@@ -5,7 +5,7 @@ import java.util.Objects;
 
 // TODO-abstract-class-04
 // - Observe that this Employee class is an abstract
-//   class
+//   class with a single abstract method
 public abstract class Employee {
 
     private String name;
