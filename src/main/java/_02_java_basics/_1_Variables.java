@@ -25,7 +25,8 @@ public class _1_Variables {
 
         // TODO-variables-02:
         // - Create two int type variables a and b.
-        // - Assign some values to them and print out the sum of a and b.
+        // - Assign some values to them and print out
+        //   the sum of a and b.
 
         // TODO-variables-03:
         // - Create two int variables x and y.
