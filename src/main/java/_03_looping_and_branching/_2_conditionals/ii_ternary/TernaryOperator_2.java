@@ -10,7 +10,7 @@ public class TernaryOperator_2 {
         //   determine whether `a` is even or odd.
         // - Print the result.
         // - Run the program a few times,
-        //  each time change the int value.
+        //   each time changing the int value.
 
     }
 }

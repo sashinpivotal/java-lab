@@ -15,8 +15,10 @@ public class _3_Nested {
 
         // TODO-looping-08
         // - Use nested for loops to print all the
-        //   elements of a 2D array.
-        int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+        //   elements of a two-dimensional array.
+        int[][] matrix = { {1, 2, 3},
+                           {4, 5, 6},
+                           {7, 8, 9} };
     }
 }
 

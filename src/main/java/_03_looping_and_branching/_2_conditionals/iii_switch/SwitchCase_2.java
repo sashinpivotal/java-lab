@@ -7,7 +7,7 @@ public class SwitchCase_2 {
         // - Use switch/case to check if it's a vowel or a consonant.
         // - Print the result.
         // - Run the program a few times,
-        //   each time change the `a` value.
+        //   each time changing the `a` value.
     }
 }
 

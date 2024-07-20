@@ -9,7 +9,7 @@ public class SwitchCase_1 {
         //   and print the result.
         // - Don't forget about the `default` case.
         // - Run the program a few times,
-        //   each time change the `day` value.
+        //   each time changing the `day` value.
 
     }
 }

@@ -10,7 +10,7 @@ public class TernaryOperator_1 {
         //   check if the number `a` is positive or not.
         // - Print the result.
         // - Run the program a few times,
-        //   each time change the int value.
+        //   each time changing the int value.
 
     }
 }
