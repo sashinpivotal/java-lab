@@ -26,7 +26,7 @@ public class Main {
         System.out.println("department total monthly compensation = "
                             + departmentTotalMonthlyCompensation);
 
-        // TODO-abstract-class-03
+        // TODO-abstract-class-04
         // - Write ContractEmployee class which extends
         //   Employee abstract class
         // - ContractEmployee class the following fields

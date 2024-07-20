@@ -3,6 +3,20 @@ package _03_looping_and_branching._1_looping;
 public class _1_ForLoop {
     public static void main(String[] args) {
 
+        // TODO-looping-00 (Optional)
+        // - Do "git checkout -b _03_looping_and_branching"
+        //   before making any changes
+        //   - this will allow you to retrieve any
+        //     changes from the remote repository
+        //     without experiencing merge conflict
+        // - Buf if you are comfortable with handling
+        //   possible merge conflict, you can start making
+        //   changes in the master/main branch
+        // - Regardless you use different branch or not,
+        //   when you are done with your change,
+        //   you can commit the changes by
+        //   git commit -am "my change message"
+
         // TODO-looping-01
         // - Print numbers from 1 to 10 using a for loop
 
