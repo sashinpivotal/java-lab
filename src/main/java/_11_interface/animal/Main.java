@@ -16,7 +16,7 @@ public class Main {
             breathAbles[i].breathe();
         }
 
-        // TODO-interface-01
+        // TODO-interface-03
         // - Create Monkey class which implements
         //   IBreathable interface
 
