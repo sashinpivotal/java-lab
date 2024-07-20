@@ -1,39 +1,44 @@
 package _09_strings;
 
+import java.time.LocalDate;
+
 public class _1_String {
 
     public static void main(String[] args) {
 
+        // TODO-strings_01: length of a String
+        // - Given a String object below
         String str = "Hello, World!";
-
-        // TODO-strings_01:
         // - Find and use the method in the String class
         //   to print the length of the string.
         // - Output: Length of string: 13
 
         // TODO-strings-02
-        // - Find and sue the method in the String class
+        // - Find and use the method in the String class
         //   to print the character at a specific index
         //   in the string.
         // - Output: character at index 7: W
 
         // TODO-strings-03
-        // - Find and sue the method in the String class
+        // - Find and use the method in the String class
         //   to print a part of the string.
         // - Output: Substring: World
 
         // TODO-strings-04
-        // - Use the indexOf() method to find the position
+        // - Use the indexOf() method in the Sring class
+        //   to find the position
         //   of a character in the string.
         // - Output: Index of 'W': 7
 
         // TODO-strings-05
-        // - Use the toLowerCase() method to convert the
+        // - Use the toLowerCase() method of the String
+        //   class to convert the
         //   string to lowercase and print it.
         // - Output: Lowercase: hello, world!
 
         // TODO-strings-06
-        // - Use the toUpperCase() method to convert
+        // - Use the toUpperCase() method of the String
+        //   class to convert
         //   the string to uppercase and print it.
         // - Output: Uppercase: HELLO, WORLD!
 
@@ -44,10 +49,13 @@ public class _1_String {
         //   - "   Trim me!   " -> Trimmed: 'Trim me!'
 
         // TODO-strings-08
-        // - Use printf() and format() to print 2 formatted strings.
+        // - Use printf() and format() methods of
+        //   System.out class to print 2 formatted strings
+        //   along with current date using LocalDate.now()
         // - Output:
-        //      printf(): Hello, World!
-        //      format(): Hello, World!
+        //      printf(): Hello, World! 2024-07-20
+        //      format(): Hello, World! 2024-07-20
+
     }
 
 }
