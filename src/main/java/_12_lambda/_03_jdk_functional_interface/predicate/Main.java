@@ -9,6 +9,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
+		// TODO-lambda-functional-interface-02:
+		// - Study how lambda objects of
+		//   Predicate functional interface type
+		//   are defined and invoked below
 		Predicate<Double> predicate1 = x -> x > 10;
 		System.out.println(predicate1.test(Double.valueOf(9.0)));
 		

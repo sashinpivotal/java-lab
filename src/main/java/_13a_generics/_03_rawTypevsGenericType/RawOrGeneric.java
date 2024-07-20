@@ -1,4 +1,4 @@
-package _13a_generics.rawTypevsGenericType;
+package _13a_generics._03_rawTypevsGenericType;
 
 import java.util.ArrayList;
 

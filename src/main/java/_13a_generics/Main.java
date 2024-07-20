@@ -1,8 +1,8 @@
 package _13a_generics;
 
-import _13a_generics.withGenerics.MyClassWithGenerics;
-import _13a_generics.withoutGenerics.MyClassWithInteger;
-import _13a_generics.withoutGenerics.MyClassCustomer;
+import _13a_generics._02_withGenerics.MyClassWithGenerics;
+import _13a_generics._01_withoutGenerics.MyClassWithInteger;
+import _13a_generics._01_withoutGenerics.MyClassCustomer;
 
 public class Main {
 

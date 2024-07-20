@@ -1,4 +1,4 @@
-package _13a_generics.genericMethod;
+package _13a_generics._04_genericMethod;
 
 import java.util.List;
 
@@ -16,5 +16,3 @@ public class GenericMethodClass {
 
 }
 
-class T {
-}

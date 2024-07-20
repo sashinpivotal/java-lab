@@ -1,10 +1,10 @@
-package _13a_generics.withoutGenerics;
+package _13a_generics._01_withoutGenerics;
 
 public class MyClassWithLong {
 
     private Long aLong;
 
-    public void displayLong() {
+    public void display() {
         System.out.println(aLong);
     }
 }
