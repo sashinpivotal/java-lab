@@ -6,7 +6,10 @@ public class _2_DataTypes {
         // TODO-DataTypes-01
         // - Create variables of each of the 8
         //   primitive data types with proper
-        //   values
+        //   values.
+        //   Hint: if you are not sure what are the 8
+        //   primitive types in Java, ask CoPilot
+        //   or ChatGPT
         // - Print them
 
     }

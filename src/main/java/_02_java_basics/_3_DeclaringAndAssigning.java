@@ -4,7 +4,7 @@ public class _3_DeclaringAndAssigning {
     public static void main(String[] args) {
 
         // TODO-DeclaringAndAssigning-01
-        // - Declare and assign values to three integer variables.
+        // - Declare and assign values to three int type variables.
         // - Then, calculate their average and print the result.
     }
 }

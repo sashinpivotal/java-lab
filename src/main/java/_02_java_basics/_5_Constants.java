@@ -4,11 +4,12 @@ public class _5_Constants {
     public static void main(String[] args) {
 
         // TODO-constants-01
-        // - Declare a constant named PI and assign a value to it.
+        // - Declare a constant named MY_PI and assign a value to it.
         // - Then print its value.
 
         // TODO-constants-02
-        // - Declare a constant named MAX_VALUE and assign a value of 100 to it.
+        // - Declare a constant named MY_CONSTANT_VALUE and assign
+        //   a value of 100 to it.
         // - Try to change value and see what happens.
     }
 }
