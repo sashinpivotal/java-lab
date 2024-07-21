@@ -3,7 +3,7 @@ package _03_looping_and_branching._2_conditionals.iii_switch;
 public class SwitchCase_1 {
     public static void main(String[] args) {
         // TODO-conditionals-05
-        // - Create a variable `day` with a value 3.
+        // - Create a int variable called `day` with a value 3.
         // - Use switch/case to determine the name of
         //   the day (1:Monday, 2:Tuesday, etc.)
         //   and print the result.
