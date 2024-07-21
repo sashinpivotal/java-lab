@@ -18,7 +18,7 @@ public class _1_Variables {
         //   git commit -am "my change message"
 
         // TODO-variables-01:
-        // - Create a variable name with proper type
+        // - Create a variable called "name" with proper type
         //   and assign your name to it.
         // - Print out a message saying "Hello, my name is ____"
         //   with your name in the blank.
