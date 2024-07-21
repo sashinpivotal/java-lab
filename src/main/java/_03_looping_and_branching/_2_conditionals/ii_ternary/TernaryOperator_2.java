@@ -11,6 +11,9 @@ public class TernaryOperator_2 {
         // - Print the result.
         // - Run the program a few times,
         //   each time changing the int value.
+        int a = 25;
+        String message = a % 2 == 0 ? "even" : "odd";
+        System.out.println(message);
 
     }
 }

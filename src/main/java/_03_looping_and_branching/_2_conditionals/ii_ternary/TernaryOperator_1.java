@@ -11,7 +11,9 @@ public class TernaryOperator_1 {
         // - Print the result.
         // - Run the program a few times,
         //   each time changing the int value.
-
+        int a = -23;
+        String message = a > 0? "positive": "negative";
+        System.out.println(message);
     }
 }
 
