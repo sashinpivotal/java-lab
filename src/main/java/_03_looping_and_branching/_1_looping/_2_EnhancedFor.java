@@ -7,14 +7,29 @@ public class _2_EnhancedFor {
         // - Use an enhanced for loop to iterate
         //   over an array below and print each element.
         int[] ints = {3, 7, 2, 6, 9, 1, 5};
+        for (int i : ints) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
 
         // TODO-looping-05
         // - Calculate the sum of all elements
         //   in the ints array above using an enhanced for loop
+        int sum = 0;
+        for (int i : ints) {
+            sum += i;
+        }
+        System.out.println("sum = " + sum);
 
         // TODO-looping-06
         // - Calculate the average of the elements
         //   in the ints array above using an enhanced for loop
+        sum = 0;
+        for (int i : ints) {
+            sum += i;
+        }
+        int average = sum / ints.length;
+        System.out.println("average = " + average);
     }
 }
 
