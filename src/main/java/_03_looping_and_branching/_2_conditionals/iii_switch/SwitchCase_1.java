@@ -10,6 +10,7 @@ public class SwitchCase_1 {
         // - Don't forget about the `default` case.
         // - Run the program a few times,
         //   each time changing the `day` value.
+        int day = 3;
 
     }
 }
