@@ -11,6 +11,14 @@ public class IfElseIf_1 {
         //   print the result.
         // - Run the program a few times,
         //   each time changing the int value, e.g. -5, 0. 23
+        int a = 5;
+        if (a > 0) {
+            System.out.println("positive");
+        } else if (a == 0) {
+            System.out.println("zero");
+        } else {
+            System.out.println("negative");
+        }
 
     }
 }
