@@ -15,7 +15,14 @@ public class _3_Nested {
 
         // TODO-looping-08
         // - Use nested for loops to print all the
-        //   elements of a two-dimensional array.
+        //   elements of a two-dimensional array
+        //   as following:
+        // - Hint: matrix.length is number of rows
+        //         matrix[i].length is number of elements in a row of i
+        //
+        // 1 2 3
+        // 4 5 6
+        // 7 8 9
         int[][] matrix = { {1, 2, 3},
                            {4, 5, 6},
                            {7, 8, 9} };
