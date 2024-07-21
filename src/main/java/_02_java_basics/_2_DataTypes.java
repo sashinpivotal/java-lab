@@ -11,6 +11,22 @@ public class _2_DataTypes {
         //   primitive types in Java, ask CoPilot
         //   or ChatGPT
         // - Print them
+        boolean b1 = true;
+        byte b2 =10;
+        short s = 15;
+        int i = 20;
+        long l = 30L;
+        float f = 40.0f;
+        double d = 60.0;
+        char c = 'x';
+        System.out.println("boolean value = " + b1 +
+                           "\nbyte value = " + b2 +
+                           "\nshort value = " + s +
+                           "\nint value = " + i +
+                           "\nlong value = " + l +
+                           "\nfloat value = " + f +
+                           "\ndouble value = " + d +
+                           "\nchar value = " + c);
 
     }
 }
