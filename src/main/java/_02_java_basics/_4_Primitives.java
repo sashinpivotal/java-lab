@@ -4,17 +4,23 @@ public class _4_Primitives {
     public static void main(String[] args) {
 
         // TODO-primitives-01
-        // - Create a char variable with a value of 'A',
-        //   increment it by 1, and
-        // - Print the result.
-        char c = 'A';
-        c += 1;
-        System.out.println(c);
+        // - Create a char variable called "my_char" with
+        //   a value of 'A',
+        // - Increment it by 1 using three different schemes below
+        //   - my_char++
+        //   - my_char += 1;
+        //   - my_char = my_char + 1;
+        // - Find out which schemes work and display the result
+        char my_char = 'A';
+        my_char++;
+        System.out.println(my_char);
 
         // TODO-primitives-02
-        // - Create a boolean variable and print its inverse.
-        boolean b = true;
-        System.out.println(!b);
+        // - Create a boolean variable called "my_boolean" set
+        //   with true and print its inverse.
+        boolean my_boolean = true;
+        System.out.println(!my_boolean);
+
     }
 }
 
