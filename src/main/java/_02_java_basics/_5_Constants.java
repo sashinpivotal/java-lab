@@ -1,16 +1,23 @@
 package _02_java_basics;
 
 public class _5_Constants {
+
+    // TODO-constants-01
+    // - Declare a constant named MY_PI of double type
+    //   and assign a value of Math.PI
+
+    // TODO-constants-02
+    // - Declare a constant named MY_CONSTANT_VALUE of int
+    //   type and assign a value of 100 to it.
+
     public static void main(String[] args) {
 
-        // TODO-constants-01
-        // - Declare a constant named MY_PI and assign a value to it.
-        // - Then print its value.
+        // TODO-constants-03
+        // - Print the values of MY_PI and MY_CONSTANT_VALUE
+        // - Try to change value of these constants and see
+        //   what happens.
+        // MY_CONSTANT_VALUE = 400;
 
-        // TODO-constants-02
-        // - Declare a constant named MY_CONSTANT_VALUE and assign
-        //   a value of 100 to it.
-        // - Try to change value and see what happens.
     }
 }
 
