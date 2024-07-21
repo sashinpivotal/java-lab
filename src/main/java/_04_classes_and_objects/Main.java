@@ -37,9 +37,17 @@ public class Main {
         // - Create 2 instances of "Account" objects
         //   (we will call them as account1, account2)
         //   with appropriate initial values
+        Account account1 = new Account("sang", 1000.0);
+        Account account2 = new Account("mary", 2000.0);
         // - Display both accounts
+        System.out.println("Before the transfer:");
+        System.out.println(account1);
+        System.out.println(account2);
         // - Withdraw $30 from account1 and deposit
         //   the same amount into account2
+        double amount = 30.0;
+        account1.withdraw(amount);
+        account2.deposit(amount);
         // - Make sure the withdrawal is possible
         //   only when the balance is greater than
         //   the amount of withdrawal
@@ -50,6 +58,9 @@ public class Main {
         //   the withdrawal and deposit operations
         // - Make sure both accounts
         //   have the correct balances
+        System.out.println("After the transfer:");
+        System.out.println(account1);
+        System.out.println(account2);
 
     }
 }
