@@ -19,15 +19,28 @@ public class _1_ForLoop {
 
         // TODO-looping-01
         // - Print numbers from 1 to 10 using a for loop
+        for (int i = 1; i <= 10; i++) {
+            System.out.print(i + " ");
+        }
+        System.out.println();
 
         // TODO-looping-02
         // - Print all even numbers from 2 to 20
         //   using for loop
+        for (int i = 2; i <= 20; i++) {
+            if (i % 2 == 0) {
+                System.out.print(i + " ");
+            }
+        }
+        System.out.println();
 
-        // TODO-looping-02
+        // TODO-looping-03
         // - Use a for loop to iterate over the array
         //   of ints below and print each element.
         int[] ints = {3, 7, 2, 6, 9, 1, 5};
+        for (int i = 0; i < ints.length; i++) {
+            System.out.print(ints[i] + " ");
+        }
 
     }
 }
