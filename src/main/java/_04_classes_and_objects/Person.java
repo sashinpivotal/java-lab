@@ -1,5 +1,13 @@
 package _04_classes_and_objects;
 
+// TODO-classes-and-objects-01
+// - Study the Person class below, which has
+//   the following parts
+//   - Fields
+//   - Constructors
+//   - Accessor methods
+//   - toString method
+//   - Business methods
 public class Person {
 
     // Fields
