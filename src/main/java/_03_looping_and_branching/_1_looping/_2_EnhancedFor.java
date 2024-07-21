@@ -11,10 +11,12 @@ public class _2_EnhancedFor {
         // TODO-looping-05
         // - Calculate the sum of all elements
         //   in the ints array above using an enhanced for loop
+        // - Print the result
 
         // TODO-looping-06
         // - Calculate the average of the elements
         //   in the ints array above using an enhanced for loop
+        // - Print the result
     }
 }
 
