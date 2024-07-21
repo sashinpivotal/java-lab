@@ -7,6 +7,7 @@ public class _5_Constants {
     //   and assign a value of Math.PI
     static final double MY_PI = Math.PI;
 
+
     // TODO-constants-02
     // - Declare a constant named MY_CONSTANT_VALUE of int
     //   type and assign a value of 100 to it.
@@ -17,7 +18,8 @@ public class _5_Constants {
         // TODO-constants-03
         // - Print the values of MY_PI and MY_CONSTANT_VALUE
         System.out.println(MY_PI + ", " + MY_CONSTANT_VALUE);
-        // - Try to change value and see what happens.
+        // - Try to change value of these constants and see
+        //   what happens.
         // MY_CONSTANT_VALUE = 400;
 
     }

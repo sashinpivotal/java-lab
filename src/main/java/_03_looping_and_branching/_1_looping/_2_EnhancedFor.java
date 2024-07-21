@@ -15,6 +15,7 @@ public class _2_EnhancedFor {
         // TODO-looping-05
         // - Calculate the sum of all elements
         //   in the ints array above using an enhanced for loop
+        // - Print the result
         int sum = 0;
         for (int i : ints) {
             sum += i;
@@ -24,12 +25,14 @@ public class _2_EnhancedFor {
         // TODO-looping-06
         // - Calculate the average of the elements
         //   in the ints array above using an enhanced for loop
+        // - Print the result
         sum = 0;
         for (int i : ints) {
             sum += i;
         }
         int average = sum / ints.length;
         System.out.println("average = " + average);
+
     }
 }
 
