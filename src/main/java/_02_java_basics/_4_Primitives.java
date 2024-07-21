@@ -7,9 +7,14 @@ public class _4_Primitives {
         // - Create a char variable with a value of 'A',
         //   increment it by 1, and
         // - Print the result.
+        char c = 'A';
+        c += 1;
+        System.out.println(c);
 
         // TODO-primitives-02
         // - Create a boolean variable and print its inverse.
+        boolean b = true;
+        System.out.println(!b);
     }
 }
 
