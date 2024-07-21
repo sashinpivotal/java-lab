@@ -7,8 +7,8 @@ public class _2_EnhancedFor {
         // - Use an enhanced for loop to iterate
         //   over an array below and print each element.
         int[] ints = {3, 7, 2, 6, 9, 1, 5};
-        for (int i : ints) {
-            System.out.print(i + " ");
+        for (int value : ints) {
+            System.out.print(value + " ");
         }
         System.out.println();
 
@@ -17,8 +17,8 @@ public class _2_EnhancedFor {
         //   in the ints array above using an enhanced for loop
         // - Print the result
         int sum = 0;
-        for (int i : ints) {
-            sum += i;
+        for (int value : ints) {
+            sum += value;
         }
         System.out.println("sum = " + sum);
 
@@ -27,8 +27,8 @@ public class _2_EnhancedFor {
         //   in the ints array above using an enhanced for loop
         // - Print the result
         sum = 0;
-        for (int i : ints) {
-            sum += i;
+        for (int value : ints) {
+            sum += value;
         }
         int average = sum / ints.length;
         System.out.println("average = " + average);

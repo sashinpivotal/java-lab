@@ -38,8 +38,8 @@ public class _1_ForLoop {
         // - Use a for loop to iterate over the array
         //   of ints below and print each element.
         int[] ints = {3, 7, 2, 6, 9, 1, 5};
-        for (int i = 0; i < ints.length; i++) {
-            System.out.print(ints[i] + " ");
+        for (int index = 0; index < ints.length; index++) {
+            System.out.print(ints[index] + " ");
         }
 
     }
