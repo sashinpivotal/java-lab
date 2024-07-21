@@ -24,7 +24,7 @@ public class _1_ForLoop {
         // - Print all even numbers from 2 to 20
         //   using for loop
 
-        // TODO-looping-02
+        // TODO-looping-03
         // - Use a for loop to iterate over the array
         //   of ints below and print each element.
         int[] ints = {3, 7, 2, 6, 9, 1, 5};
