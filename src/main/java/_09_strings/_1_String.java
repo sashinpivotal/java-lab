@@ -28,7 +28,7 @@ public class _1_String {
         System.out.println("Substring: " + str.substring(7));
 
         // TODO-strings-04
-        // - Use the indexOf() method in the Sring class
+        // - Use the indexOf() method in the String class
         //   to find the position
         //   of a character in the string.
         // - Output: Index of 'W': 7
