@@ -46,5 +46,16 @@ public class Main {
         // - Run this code and verify that total monthly
         //   compensation includes the compensation of
         //   the contract employee
+        double[] contractPayments = {100.0, 100.0};
+        Employee paul = new ContractEmployee("paul",
+                LocalDate.of(1999, 2, 13),
+                contractPayments
+                );
+        marketing.addEmployee(paul);
+        departmentTotalMonthlyCompensation
+                = marketing.computeDepartmentTotalMonthlyCompensation();
+        System.out.println("department total monthly compensation = "
+                + departmentTotalMonthlyCompensation);
+
     }
 }
