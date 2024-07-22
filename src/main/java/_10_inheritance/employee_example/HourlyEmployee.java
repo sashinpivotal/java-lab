@@ -2,6 +2,10 @@ package _10_inheritance.employee_example;
 
 import java.time.LocalDate;
 
+// TODO-inheritance-04
+// - Observe that the HourlyEmployee class is a subclass
+//   overriding the computeMonthlyCompensation() method
+//   using its own logic
 public class HourlyEmployee extends Employee {
 
     private int numberOfHoursWorkedPerMonth;
