@@ -6,6 +6,13 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // TODO-inheritance-06
+        // - Study the following code:
+        //   - The employees array have two Employees
+        //   - We want to compute total monthly compensation
+        //   - HourlyEmployee and SalariedEmployee will use
+        //     its own logic for computing monthly
+        //     compensation
         Employee[] employees = new Employee[100];
         Department marketing = new Department(
                 "marketing", employees);
@@ -26,7 +33,7 @@ public class Main {
         System.out.println("department total monthly compensation = "
                             + departmentTotalMonthlyCompensation);
 
-        // TODO-inheritance-04
+        // TODO-inheritance-07
         // - Write ContractEmployee class which extends
         //   Employee parent class
         // - ContractEmployee class has the following fields
