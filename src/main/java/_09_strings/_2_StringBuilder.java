@@ -6,14 +6,25 @@ public class _2_StringBuilder {
         // TODO-StringBuilder-01
         // - Create a StringBuilder, append some strings,
         //   and print the result.
+        StringBuffer stringBuffer = new StringBuffer();
+        stringBuffer.append("Hello ");
+        stringBuffer.append("World!");
+        String message = stringBuffer.toString();
+        System.out.println(message);
 
         // TODO-StringBuilder-02
         // - Insert a string at a specific position
         //   in the StringBuilder and print the result.
+        stringBuffer.insert(6, "Beautiful ");
+        message = stringBuffer.toString();
+        System.out.println(message);
 
         // TODO-StringBuilder-03
         // - Delete a part of the StringBuilder
         //   and print the result.
+        stringBuffer.delete(6, 16);
+        message = stringBuffer.toString();
+        System.out.println(message);
 
     }
 }
