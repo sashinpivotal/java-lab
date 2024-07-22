@@ -12,23 +12,27 @@ public class _1_String {
         // - Find and use the method in the String class
         //   to print the length of the string.
         // - Output: Length of string: 13
+        System.out.println("Length of string: " + str.length());
 
         // TODO-strings-02
         // - Find and use the method in the String class
         //   to print the character at a specific index
         //   in the string.
         // - Output: character at index 7: W
+        System.out.println("character at index 7: " + str.charAt(7));
 
         // TODO-strings-03
         // - Find and use the method in the String class
         //   to print a part of the string.
         // - Output: Substring: World
+        System.out.println("Substring: " + str.substring(7));
 
         // TODO-strings-04
         // - Use the indexOf() method in the Sring class
         //   to find the position
         //   of a character in the string.
         // - Output: Index of 'W': 7
+        System.out.println("Index of 'W': " + str.indexOf('W'));
 
         // TODO-strings-05
         // - Use the toLowerCase() method of the String
