@@ -17,6 +17,9 @@ class Main {
         Vehicle vehicle = new Car("XYZ234");
         dmv.register(vehicle);
 
+        Vehicle truck = new Truck("INM123");
+        dmv.register(truck);
+
         Vehicle[] vehicles = dmv.getVehicles();
         int currentIndex = dmv.getCurrentIndex();
         for (int i = 0; i < currentIndex ; i++) {
