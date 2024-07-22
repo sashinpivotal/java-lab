@@ -12,13 +12,13 @@ public class Main {
         breathAbles[currentIndex++] = animal;
         breathAbles[currentIndex++] = human;
 
-        for (int i = 0; i < currentIndex; i++) {
-            breathAbles[i].breathe();
-        }
-
         // TODO-interface-03
         // - Create Monkey class which implements
         //   IBreathable interface
+
+        for (int i = 0; i < currentIndex; i++) {
+            breathAbles[i].breathe();
+        }
 
     }
 }
