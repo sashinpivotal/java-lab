@@ -17,6 +17,6 @@ public abstract class Employee {
     }
 
     // abstract methods
-    public abstract double computeCompensation();
+    public abstract double computeMonthlyCompensation();
 
 }
