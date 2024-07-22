@@ -39,18 +39,21 @@ public class _1_String {
         //   class to convert the
         //   string to lowercase and print it.
         // - Output: Lowercase: hello, world!
+        System.out.println("Lowercase: " + str.toLowerCase());
 
         // TODO-strings-06
         // - Use the toUpperCase() method of the String
         //   class to convert
         //   the string to uppercase and print it.
         // - Output: Uppercase: HELLO, WORLD!
+        System.out.println("Lowercase: " + str.toUpperCase());
 
         // TODO-strings-07
         // - Use the trim() method to remove whitespace
         //   from the beginning and end of a string and print it.
         // - Use the following as test data
         //   - "   Trim me!   " -> Trimmed: 'Trim me!'
+        System.out.println("Trimmed: " + "   Trim me!   ".trim());
 
         // TODO-strings-08
         // - Use printf() and format() methods of
@@ -59,6 +62,8 @@ public class _1_String {
         // - Output:
         //      printf(): Hello, World! 2024-07-20
         //      format(): Hello, World! 2024-07-20
+        System.out.printf("print(): %s %s\n", str, LocalDate.now());
+        System.out.format("print(): %s %s", str, LocalDate.now());
 
     }
 
