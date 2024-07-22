@@ -11,4 +11,9 @@ class Cat extends Animal {
         System.out.println(getName() + " breathe by Cat");
     }
 
+    @Override
+    public void makeSound() {
+        System.out.println("Meo");
+    }
+
 }

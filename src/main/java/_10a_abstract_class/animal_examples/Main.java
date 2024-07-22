@@ -31,9 +31,13 @@ public class Main {
         //   - letAllAnimalsMakeSound()
         // - Invoke letAllAnimalsMakeSound() method
         //   in this main method
+        animalHospital.letAllAnimalsMakeSound();
 
         // TODO-abstract-class-03
         // - Create Monkey class which extends
         //   Animal abstract class
+        Monkey zara = new Monkey("zara");
+        animals[currentIndex++] = zara;
+
     }
 }

@@ -20,5 +20,6 @@ public abstract class Animal {
 
     // abstract methods
     public abstract void breathe();
+    public abstract void makeSound();
 }
 

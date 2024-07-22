@@ -15,4 +15,10 @@ class AnimalHospital {
             animals[i].breathe();
         }
     }
+
+    public void letAllAnimalsMakeSound() {
+        for (int i = 0; i < numberOfValidAnimals; i++) {
+            animals[i].makeSound();
+        }
+    }
 }

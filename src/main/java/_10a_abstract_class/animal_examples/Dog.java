@@ -11,4 +11,9 @@ class Dog extends Animal {
         System.out.println(getName() + " breathe by Dog");
     }
 
+    @Override
+    public void makeSound() {
+        System.out.println("Yo");
+    }
+
 }
