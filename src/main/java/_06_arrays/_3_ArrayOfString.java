@@ -13,6 +13,8 @@ public class _3_ArrayOfString {
         //   of String class
         //   using "[, ?.@]+" as regular expression
         // - Display the array of String created
+        String[] arrayOfString = testString.split("[, ?.@]+");
+        System.out.println(Arrays.toString(arrayOfString));
 
         // TODO-arrays-08 (Optional): create unique words array
         // - Create a new array of String with unique word (but
