@@ -27,6 +27,7 @@ class Main {
         // TODO-inheritance-02
         // - Write Truck class which extends
         //   Vehicle parent class
+        //   - override the moveTo(..) method of the parent class
         // - Create a Truck object and register
         //   it with the DMV
         // - Run this code again and verify
