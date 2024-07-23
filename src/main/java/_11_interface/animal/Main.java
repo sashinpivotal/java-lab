@@ -17,6 +17,8 @@ public class Main {
         //   IBreathable interface
         // - Create an monkey object and
         //   add it to the breathAbles array
+        IBreathable monkey = new Monkey();
+        breathAbles[currentIndex++] = monkey;
 
         for (int i = 0; i < currentIndex; i++) {
             breathAbles[i].breathe();
