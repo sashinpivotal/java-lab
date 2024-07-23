@@ -12,6 +12,7 @@ public class Main {
         // TODO-IDE-01: shortcut keys for running an app
         // - Run this app using shortcut key "CTRL+SHIFT+F10"
         // - Rerun the app using shortcut key "SHIFT+F10" thereafter
+        // - For useful shortcut keys, see https://github.com/sashinpivotal/java-tips
 
         // TODO-IDE-02: context-sensitive Javadoc
         // You are going to configure IntelliJ so that
