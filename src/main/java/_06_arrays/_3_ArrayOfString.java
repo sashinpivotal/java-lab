@@ -26,7 +26,27 @@ public class _3_ArrayOfString {
         //   element values
         // - Display the newly created array
         // - (Do not use Set, Do not use Stream.)
+        String[] uniqueWords = new String[arrayOfString.length];
+        int currentIndex = 0;
+        for (String word : arrayOfString) {
+            if (checkIfWordIsUnique(word, uniqueWords, currentIndex)) {
+                uniqueWords[currentIndex++] = word.toLowerCase();
+            }
+        }
+        System.out.println(Arrays.toString(uniqueWords));
 
+    }
+
+    private static boolean
+    checkIfWordIsUnique(String word, String[] uniqueWords, int currentIndex) {
+        boolean isItUnique = true;
+        for (int i = 0; i < currentIndex; i++) {
+            if (uniqueWords[i].equalsIgnoreCase(word)) {
+                isItUnique = false;
+                break;
+            }
+        }
+        return isItUnique;
     }
 
 }
