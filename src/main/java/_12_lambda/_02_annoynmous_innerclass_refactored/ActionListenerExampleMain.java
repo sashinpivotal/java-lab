@@ -44,7 +44,8 @@ public class ActionListenerExampleMain {
 
         // TODO-lambda-anonymous-01d:
         // - Rewrite the above code using Lambda
-
+        testButton4.addActionListener(
+                e -> System.out.println(LocalTime.now()));
 
         // Swing stuff
         JFrame frame = new JFrame("Listener Test");
