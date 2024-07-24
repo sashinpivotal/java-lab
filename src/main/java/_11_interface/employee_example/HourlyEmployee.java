@@ -3,7 +3,7 @@ package _11_interface.employee_example;
 import java.time.LocalDate;
 
 // TODO-interface-06
-// - Implement TaxPayer interface
+// - Implement computeMonthlyTaxToPay() method
 // - Use Tax rate defined for HourlyEmployee
 //   in the TaxPayer interface
 public class HourlyEmployee extends Employee {
