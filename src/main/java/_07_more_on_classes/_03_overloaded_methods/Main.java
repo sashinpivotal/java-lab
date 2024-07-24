@@ -17,5 +17,11 @@ public class Main {
         // - Write logic of withdrawing some amount
         //   of money from account1 and deposit to
         //   account2 in this main method
+        Account account1 = new Account("sang", 1000.0);
+        Account account2 = new Account("tom", 2000.0);
+        account1.withdraw("50.0");
+        account2.deposit(50.0);
+        System.out.println(account1.getBalance());
+        System.out.println(account2.getBalance());
     }
 }
