@@ -1,8 +1,10 @@
-package _07_more_on_classes;
+package _07_more_on_classes._02_static_methods;
 
 // TODO-static-method_05
 // - Write MyCalculator1, MyCalculator2, MyCalculator3
-//   classes as following
+//   classes (similar to Calculator1, Calcular2, Calculator3
+//   classes you've seen in Main class in the same package)
+//   as following
 //   - MyCalculator1 - use static method called subtract that
 //                     takes two int arguments: x, y
 //   - MyCalculator2 - use instance method called subtract
