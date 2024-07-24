@@ -1,4 +1,4 @@
-package _08_organizating_java_classes._01_importing;
+package _08_organizating_java_classes._02_maven_dependency;
 
 public class Account {
 
@@ -40,9 +40,16 @@ public class Account {
 
     public void withdraw(double amount) {
         if (balance < amount) {
-            // TODO-java-logging-01
+            // TODO-java-logging-02
             // - Refactor the System.out.printf(..) below using
-            //   Java logging (from JDK) by doing some research
+            //   Log4J (instead of Java logging from JDK)
+            //   - You will have to add Log4J Maven dependency
+            //     to pom.xml
+            //   - Once you change pom.xml, make sure to
+            //     refresh Maven (click Maven icon on the top
+            //     right corner in the editor window)
+            //     in order to trigger the downloading the
+            //     Log4J dependency to local Maven repository.
             System.out.printf(
                     "balance %.2f is smaller than withdrawal amount %.2f"
                     , balance, amount);
