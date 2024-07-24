@@ -1,25 +1,26 @@
 package _13_collection.employee_example;
 
+import java.util.List;
+
 public class Department {
 
     private String departmentName;
-    private Employee[] employees;
-    private int currentIndex = 0;
+    private List<Employee> employees;
 
-    public Department(String departmentName, Employee[] employees) {
+    public Department(String departmentName, List<Employee> employees) {
         this.departmentName = departmentName;
         this.employees = employees;
     }
 
     public void addEmployee(Employee employee) {
-        employees[currentIndex++] = employee;
+        employees.add(employee);
     }
 
     public double computeDepartmentTotalMonthlyCompensation() {
         double departmentTotalMonthlyCompensation = 0.0;
-        for (int i = 0; i < currentIndex; i++) {
+        for (Employee employee: employees) {
             departmentTotalMonthlyCompensation
-                    += employees[i].computeCompensation();
+                    += employee.computeCompensation();
         }
         return departmentTotalMonthlyCompensation;
     }
