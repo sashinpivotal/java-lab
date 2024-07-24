@@ -46,6 +46,11 @@ public class CalculatorTest {
     // TODO-junit5-01
     // - write "positive" test first and then target code
     //   for the multiply() method in TDD style
+    @Test
+    void multiply_should_multiply_two_numbers() {
+        int multiplyResult = calculator.multiply(4, 5);
+        assertEquals(20, multiplyResult);
+    }
 
     // TODO-junit5-02
     // - write "positive" test first and target code

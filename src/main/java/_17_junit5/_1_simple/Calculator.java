@@ -24,4 +24,8 @@ public class Calculator {
         }
         return input * 2;
     }
+
+    public int multiply(int x, int y) {
+        return x * y;
+    }
 }
