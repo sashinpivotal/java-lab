@@ -60,6 +60,7 @@ public class Account {
             //     file in the classpath
             //     - create one in the same directory this
             //       class is located
+            //   - Use log.error(..) method from Log4J
             logger.error("balance is smaller than withdrawal amount");
         }
         balance -= amount;
