@@ -24,7 +24,7 @@ public class Department {
         return departmentTotalMonthlyCompensation;
     }
 
-    // TODO-interface-07
+    // TODO-interface-08
     // - Write a method that computes total amount of
     //   monthly tax that needs to be paid by all
     //   employees

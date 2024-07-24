@@ -2,6 +2,8 @@ package _11_interface.employee_example;
 
 import java.time.LocalDate;
 
+// TODO-interface-05
+// - Implement TaxPayer interface
 public abstract class Employee {
 
     private String name;
