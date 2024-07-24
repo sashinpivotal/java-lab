@@ -21,11 +21,17 @@ public class CalculatorTest {
         System.out.println("after class");
     }
 
+    // TODO-junit5-00a
+    // - Study the setup method below
     @BeforeEach
     public void setUp() throws Exception {
         calculator = new Calculator();
     }
 
+    // TODO-junit5-00b
+    // - Study the positive test example
+    // - Study assertion using JUnit assertion
+    // - Study assertion using AssertJ assertion
     @Test
     public void add_should_add_two_numbers() {
         int addedValue = calculator.add(2, 3);
@@ -45,7 +51,8 @@ public class CalculatorTest {
 
     // TODO-junit5-01
     // - write "positive" test first and then target code
-    //   for the multiply() method in TDD style
+    //   for the multiply() method with two int type arguments
+    //   in TDD style
     @Test
     void multiply_should_multiply_two_numbers() {
         int multiplyResult = calculator.multiply(4, 5);
@@ -54,13 +61,13 @@ public class CalculatorTest {
 
     // TODO-junit5-02
     // - write "positive" test first and target code
-    //     for the divide() method in TDD style
+    //     for the divide() method with two int type arguments
+    //     in TDD style
     @Test
     void divide_should_divide_two_numbers() {
         int divideResult = calculator.divide(20, 5);
         assertEquals(4, divideResult);
     }
-
 
     // TODO-junit5-03
     // - write "negative" test for the divide() method
@@ -68,12 +75,17 @@ public class CalculatorTest {
     //   should throw IllegalArgumentException
 
 
+    // TODO-junit5-00c
+    // - Study another example of positive test
     @Test
     public void squareRoot_should_return_square_value_given_valid_argument() {
         double squareRoot = calculator.squareRoot(4.0);
         assertEquals(2.0, squareRoot, 0.001);
     }
 
+    // TODO-junit5-00d
+    // - Study negative test example where an exception
+    //   is supposed to be thrown by target code
     @Test
     public void _squareRoot_should_throw_IllegalArgumentException_given_invalid_argument() {
         assertThrows(
@@ -82,6 +94,10 @@ public class CalculatorTest {
                 });
     }
 
+    // TODO-junit5-00e
+    // - Study negative test example where an exception
+    //   is supposed to be thrown by target code
+    //   with a message
     @Test
     public void _squareRoot_should_throw_IllegalArgumentException_with_correct_message_given_invalid_argument() {
 
@@ -112,6 +128,8 @@ public class CalculatorTest {
                 exception.getMessage());
     }
 
+    // TODO-junit5-00f
+    // - Study parameterized test
     @ParameterizedTest
     @CsvSource({
             "0, 1, 1",
