@@ -16,7 +16,8 @@ public class RunnableExampleMain {
 
         // TODO-lambda-anonymous-02b:
         // - Rewrite the code above using Lambda
-
+        Runnable r2 = () -> System.out.println("Hello world one!");
+        r2.run();
 
     }
 }
