@@ -25,6 +25,7 @@ public class _3_ArrayOfString {
         //   "i", "love", "boston", "yes", "do" as its
         //   element values
         // - Display the newly created array
+        // - (Do not use Set, Do not use Stream.)
 
     }
 
