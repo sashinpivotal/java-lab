@@ -20,6 +20,9 @@ public class Main {
         // - Create Calculator object that adds two numbers
         //   and assign it into a variable called "adder"
         // - Use "adder" object to perform adding two numbers
+        Calculator adder = (x, y) -> x + y;
+        int resultOfAdding = adder.calculate(10, 20);
+        System.out.println("add result = " + resultOfAdding);
 
         // TODO-lambda-03a:
         // - Study how myMethod(..) defined after this method
@@ -39,6 +42,8 @@ public class Main {
         //   that performs addition and display the result
         // - Call "myMethod3" method with Calculator object
         //   that performs multiplication and display the result
+        myMethod3((x,y)-> x+y, 20, 30);
+        myMethod3((x,y)-> x*y, 20, 30);
 
         // TODO-lambda-04a:
         // - Study how the myMethod2() defined after this method
@@ -51,6 +56,9 @@ public class Main {
         // - Write myMethod4 that returns a lambda object
         //   that adds two numbers
         // - Invoke myMethod4 and call the calculate method
+        Calculator calculator1 = myMethod4();
+        int result4 = calculator1.calculate(5, 7);
+        System.out.println("result4 = " + result4);
 
     }
 
@@ -62,6 +70,15 @@ public class Main {
 
     public static Calculator myMethod2() {
         return (x, y) -> x * y;
+    }
+
+    public static void myMethod3(Calculator calculator, int x, int y) {
+        int result = calculator.calculate(x, y);
+        System.out.println("result within myMethod3 = " + result);
+    }
+
+    public static Calculator myMethod4() {
+        return (x, y) -> x + y;
     }
 
 }
