@@ -19,6 +19,12 @@ public class Main {
         //   instance
         // - Think about if the default constructor
         //   of the IRS should be private or not
+        IRS irsInstance1 = IRS.getIRSInstance();
+        IRS irsInstance2 = IRS.getIRSInstance();
+        boolean sameInstanceOrNot
+                = (irsInstance1 == irsInstance2) ? true : false;
+        System.out.println(sameInstanceOrNot);
+
     }
 
 }
