@@ -18,6 +18,7 @@ public class Main {
         //   Consumer<Integer> functional interface type
         //   that multiplies the value by 2
         //   then displays the value
-
+        Consumer<Integer> consumer2 = number -> System.out.println(number * 2);
+        consumer2.accept(10);
     }
 }
