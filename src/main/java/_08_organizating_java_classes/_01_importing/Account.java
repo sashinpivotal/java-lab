@@ -1,9 +1,14 @@
 package _08_organizating_java_classes._01_importing;
 
+import java.util.logging.Logger;
+import static java.util.logging.Level.INFO;
+
 public class Account {
 
     private String name;
     private double balance;
+
+    Logger logger = Logger.getLogger(getClass().getName());
 
     public Account(String name, double balance) {
         this.name = name;
@@ -43,9 +48,12 @@ public class Account {
             // TODO-import-java-logging-01
             // - Refactor the System.out.printf(..) below using
             //   Java logging by doing some research
-            System.out.printf(
-                    "balance %.2f is smaller than withdrawal amount %.2f"
-                    , balance, amount);
+            Double[] arguments = new Double[2];
+            arguments[0] = balance;
+            arguments[1] = amount;
+            logger.log(INFO,
+                    "balance {0} is smaller than withdrawal amount {1}",
+                    arguments);
         }
         balance -= amount;
 
