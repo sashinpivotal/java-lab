@@ -6,15 +6,16 @@ public class Main {
         // - Create a Singleton class called IRS
         //   (there has to be only a single instance
         //   of IRS class)
-        // - Add a method called getIRSInstance(),
-        //   which creates a new IRS object and return it
-        //   if it was not created before otherwise returns
-        //   the previously created IRS object
-        // - Call getIRSInstance() twice and check
-        //   if the returned objects point to the same
-        //   object
+        // - Add a method called getIRSInstance(), which
+        //   - creates a new IRS object and return it
+        //     if it was not created before
+        //   - otherwise returns the previously created
+        //     IRS object
+        // - Call getIRSInstance() twice in the main
+        //   method and check if the returned objects
+        //   point to the same object or not
         // - Think about whether you want to make
-        //   default constructor of IRS should be
+        //   default constructor of IRS class should be
         //   public or private
 
     }
