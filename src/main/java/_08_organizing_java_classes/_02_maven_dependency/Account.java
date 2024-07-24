@@ -1,4 +1,4 @@
-package _08_organizating_java_classes._02_maven_dependency;
+package _08_organizing_java_classes._02_maven_dependency;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
