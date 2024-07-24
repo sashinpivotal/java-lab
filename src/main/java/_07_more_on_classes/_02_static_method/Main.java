@@ -1,4 +1,4 @@
-package _07_more_on_classes;
+package _07_more_on_classes._02_static_method;
 
 // TODO-static-method_01
 // - Study how you use static method
