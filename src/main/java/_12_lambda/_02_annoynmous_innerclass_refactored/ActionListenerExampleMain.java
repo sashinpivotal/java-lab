@@ -44,6 +44,7 @@ public class ActionListenerExampleMain {
 
         // TODO-lambda-anonymous-01d:
         // - Rewrite the above code using Lambda
+        //   for testButton4
         testButton4.addActionListener(
                 e -> System.out.println(LocalTime.now()));
 
