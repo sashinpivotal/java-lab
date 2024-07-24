@@ -14,7 +14,7 @@ public class ActionListenerExampleMain {
         JButton testButton3 = new JButton("Click to call Anonymous ActionListener3");
         JButton testButton4 = new JButton("Click to call Lambda ActionListener4");
 
-        // TODO-lambda-anonymous-01:
+        // TODO-lambda-anonymous-01a:
         // - Study the Anonymous inner class ActionListener is
         //   used below (not using Lambda)
         testButton1.addActionListener(
@@ -25,11 +25,13 @@ public class ActionListenerExampleMain {
                     }
                 });
 
+        // TODO-lambda-anonymous-01b:
         // - Study how Lambda replaces the anonymous inner class
         //   with the same functionality
         testButton2.addActionListener(
                 e -> System.out.println("Click Detected by Lambda Listener: " + e));
 
+        // TODO-lambda-anonymous-01c:
         // - Study another example of Anonymous inner class ActionListener is
         //   used below (not using Lambda)
         testButton3.addActionListener(
@@ -40,6 +42,7 @@ public class ActionListenerExampleMain {
                     }
                 });
 
+        // TODO-lambda-anonymous-01d:
         // - Rewrite the above code using Lambda
 
 
