@@ -30,6 +30,10 @@ public class Main {
         // - Call a newly added method that computes total
         //   monthly tax to be paid by all employees
         //   and display the result
+        double departmentTotalTaxToPay
+                = marketing.computeDepartmentTotalTaxToPay();
+        System.out.println("department total tax to pay = "
+                + departmentTotalTaxToPay);
 
     }
 }

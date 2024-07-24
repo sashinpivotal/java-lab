@@ -6,8 +6,7 @@ import java.time.LocalDate;
 // - Implement computeMonthlyTaxToPay() method
 // - Use Tax rate defined for SalariedEmployee
 //   in the TaxPayer interface
-public class SalariedEmployee extends Employee
-                            implements TaxPayer{
+public class SalariedEmployee extends Employee{
 
     private double monthlySalary;
 
