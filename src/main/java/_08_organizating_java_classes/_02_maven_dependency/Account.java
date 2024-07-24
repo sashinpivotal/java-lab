@@ -56,9 +56,10 @@ public class Account {
             //     right corner in the editor window)
             //     in order to trigger the downloading the
             //     Log4J dependency to local Maven repository.
-//            System.out.printf(
-//                    "balance %.2f is smaller than withdrawal amount %.2f"
-//                    , balance, amount);
+            //   - You will also have to create log4j2.properties
+            //     file in the classpath
+            //     - create one in the same directory this
+            //       class is located
             logger.error("balance is smaller than withdrawal amount");
         }
         balance -= amount;
