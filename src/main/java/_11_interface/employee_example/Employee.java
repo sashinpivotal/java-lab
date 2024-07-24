@@ -8,7 +8,7 @@ import java.time.LocalDate;
 //   computeMonthlyTaxToPay() method of the interface
 //   needs to be done in the HourlyEmployee and
 //   SalariedEmployee classes
-public abstract class Employee {
+public abstract class Employee implements TaxPayer{
 
     private String name;
     private LocalDate hireDate;

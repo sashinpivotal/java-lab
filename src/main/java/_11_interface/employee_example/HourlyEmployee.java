@@ -6,8 +6,7 @@ import java.time.LocalDate;
 // - Implement TaxPayer interface
 // - Use Tax rate defined for HourlyEmployee
 //   in the TaxPayer interface
-public class HourlyEmployee extends Employee
-                            implements TaxPayer{
+public class HourlyEmployee extends Employee {
 
     private int numberOfHoursWorkedPerMonth;
     private double hourlyRate;
