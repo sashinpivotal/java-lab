@@ -55,6 +55,12 @@ public class CalculatorTest {
     // TODO-junit5-02
     // - write "positive" test first and target code
     //     for the divide() method in TDD style
+    @Test
+    void divide_should_divide_two_numbers() {
+        int divideResult = calculator.divide(20, 5);
+        assertEquals(4, divideResult);
+    }
+
 
     // TODO-junit5-03
     // - write "negative" test for the divide() method
