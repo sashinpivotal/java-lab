@@ -26,15 +26,5 @@ public class SetExample {
         Set<String> statesAsASet = new HashSet<>(states);
         System.out.println(statesAsASet);
 
-        if (new Integer(10) > new Integer(4)) {
-            System.out.println("10 is greater than 4");
-        }
-
-        int i2 = new Integer(10).compareTo(new Integer(10));
-        System.out.println(i2);
-
-        int i = new String("xyz").compareTo(new String("xyz"));
-        System.out.println(i);
-
     }
 }

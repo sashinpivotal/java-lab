@@ -1,13 +1,17 @@
-package com.example;
+package _07_more_on_classes;
 
-// Use static method with no internal state
+// TODO-static-method_01
+// - Study how you use static method
+//   with no internal state
 class Calculator1 {
     public static int add(int x, int y) {
         return x+y;
     }
 }
 
-// Use instance method with object-specific state
+// TODO-static-method_02
+// - Study how you use instance method
+//   with object-specific state
 class Calculator2 {
 
     int x, y;
@@ -23,7 +27,9 @@ class Calculator2 {
     }
 }
 
-// Use static method with class-wide state
+// TODO-static-method_03
+// - Study how you use static method
+//   with class-wide state
 class Calculator3 {
 
     static int x, y;
@@ -39,6 +45,9 @@ class Calculator3 {
     }
 }
 
+// TODO-static-method_04
+// - Study how the methods defined above
+//   are used
 public class Main {
     public static void main(String[] args) {
 
