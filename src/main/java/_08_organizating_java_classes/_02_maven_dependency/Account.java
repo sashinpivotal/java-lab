@@ -54,6 +54,7 @@ public class Account {
             //     file in the classpath
             //     - create one in the same directory this
             //       class is located
+            //   - Use log.error(..) method from Log4J
             System.out.printf(
                     "balance %.2f is smaller than withdrawal amount %.2f"
                     , balance, amount);
