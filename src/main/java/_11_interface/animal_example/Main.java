@@ -1,4 +1,4 @@
-package _11_interface.animal;
+package _11_interface.animal_example;
 
 public class Main {
 
