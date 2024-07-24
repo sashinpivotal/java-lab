@@ -28,5 +28,13 @@ public class Department {
     // - Write a method that computes total amount of
     //   monthly tax that needs to be paid by all
     //   employees
+    public double computeDepartmentTotalTaxToBePaid() {
+        double departmentTotalTaxToBePaid = 0.0;
+        for (int i = 0; i < currentIndex; i++) {
+//            departmentTotalTaxToBePaid
+//                    += employees[i].();
+        }
+        return departmentTotalTaxToBePaid;
+    }
 
 }
