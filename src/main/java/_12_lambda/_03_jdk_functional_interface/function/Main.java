@@ -33,11 +33,14 @@ public class Main {
 		// TODO-lambda-functional-interface-02c:
 		// - Create a Function object, which takes an Integer and returns square value
 		// - Call "apply" method of the function object using appropriate Integer value
+		Function<Integer, Integer> function6
+				= myInteger -> myInteger * myInteger;
+		System.out.println(function6.apply(7));
 
 		// TODO-lambda-functional-interface-02d:
 		// - Pass the function object you created above
 		//   to doSomething(..) method as an argument
-
+		doSomething(function6, 8);
 	}
 
 	public static <T,R> void doSomething(Function<T, R> function, T something) {
