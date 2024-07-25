@@ -23,6 +23,14 @@ public class Main {
                 new Fruit("Banana", 33)};
         List<Fruit> fruits = Arrays.asList(fruitArray);
 
+        // TODO-lambda-refactored-01:
+        // - Study the 4 different ways from least
+        //   desirable approach to the most below
+        // #1: call methods which use a for loop (least desired)
+        // #2: call methods which use Function with specific type
+        // #3: call methods which use Function with generic type
+        // #4: Use a stream
+
         // #1: call methods which use a for loop
         convertPeopleUppercase(people);
         displayResult("---->#1a: ", people);
