@@ -7,7 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		// TODO-lambda-functional-interface-02:
+		// TODO-lambda-functional-interface-02a:
 		// - Study how lambda objects of
 		//   Function<String, String> functional interface type
 		//   are defined and invoked below
@@ -21,7 +21,8 @@ public class Main {
 		
 		String result2 = function2.apply("Code with Passion!");
 		System.out.println(result2);
-		
+
+		// TODO-lambda-functional-interface-02b:
 		// - Study how a lambda object of
 		//   Function<String, String> functional interface type
 		//   is passed to a method as an argument
@@ -32,7 +33,8 @@ public class Main {
 		// - Create a Function object, which takes an Integer and returns square value
 		// - Call "apply" method of the function object using appropriate Integer value
 		// - Pass the function object to doSomething(..) method as an argument
-		Function<Integer, Integer> function6 = myInteger -> myInteger * myInteger;
+		Function<Integer, Integer> function6
+				= myInteger -> myInteger * myInteger;
 		System.out.println(function6.apply(7));
 		
 		doSomething(function6, 8);
