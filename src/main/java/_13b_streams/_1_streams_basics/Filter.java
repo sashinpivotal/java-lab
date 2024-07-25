@@ -34,8 +34,8 @@ public class Filter {
         System.out.println(sum1);
 
         // TODO-streams-02b:
-        // - Write code to select only
-        //   even numbers and then sum their
+        // - Write code to select only even number strings
+        //   from numberStrings and then sum their
         //   square values using streams
 
         // TODO-streams-03:
