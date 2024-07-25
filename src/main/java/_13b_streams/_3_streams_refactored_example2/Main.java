@@ -26,7 +26,7 @@ public class Main {
         transactionIds = getGroceryTransactionIdsUsingStream(transactions);
         transactionIds.forEach(id -> System.out.println("transaction id = " + id));
 
-        // TODO-streams-05: (Optional)
+        // TODO-streams-05c: (Optional)
         // - Create Product, which has Integer productId,
         //   ProductType productType, and Integer price fields
         // - Create ProductType as a enum, which has BOOK,
@@ -37,6 +37,9 @@ public class Main {
 
     }
 
+    // TODO-streams-05a:
+    // - Study how tedious/under-performing the code can
+    //   be if you are NOT using Stream as shown below:
     //
     // Non-stream operation (external iteration)
     //
@@ -65,6 +68,9 @@ public class Main {
         return transactionIds;
     }
 
+    // TODO-streams-05b:
+    // - Study how simple the code can
+    //   be if you ARE using Stream as shown below:
     //
     // Stream operation (internal iteration)
     //
