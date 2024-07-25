@@ -13,12 +13,17 @@ public class Filter {
         List<Integer> numbers
                 = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8);
         numbers.stream()
-                .filter(p -> p > 6)
-                .forEach(p -> System.out.println(p + " "));
+                .filter(number -> number > 6)
+                .forEach(number -> System.out.print(number + " "));
+        System.out.println();
 
         // TODO-streams-01b:
         // - Write code to display only odd numbers
         //   from the numbers array
+        numbers.stream()
+                .filter(number -> number % 2 == 1)
+                .forEach(number -> System.out.print(number + " "));
+        System.out.println();
 
         // TODO-streams-02a:
         // - Study how the logic of "from a list of number
