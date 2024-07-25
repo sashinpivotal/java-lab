@@ -34,7 +34,7 @@ public class Filter {
                 = Arrays.asList("5", "16", "8", "24", "5");
         int sum1 = numberStrings.stream()                  // convert the List to  sequential stream
                 .mapToInt(stringNumber -> Integer.parseInt(stringNumber))
-                .filter(i -> i > 10)       // filter only the number > 10  (Predicate)
+                .filter(number -> number > 10)       // filter only the number > 10  (Predicate)
                 .sum();                    // perform sum operation
         System.out.println(sum1);
 
@@ -42,16 +42,22 @@ public class Filter {
         // - Write code to select only even number strings
         //   from numberStrings and then sum their
         //   square values using streams
+        int sum2 = numberStrings.stream()                  // convert the List to  sequential stream
+                .mapToInt(stringNumber -> Integer.parseInt(stringNumber))
+                .filter(number -> number % 2 == 0)       // filter only the even number
+                .map(number -> number * number)
+                .sum();
+        System.out.println(sum2);
 
         // TODO-streams-03:
         // - Study how parallel steam us leveraged
         // - Use parallel stream for one of the exercise
         //   above
-        int sum2 = numberStrings.parallelStream()                  // convert the List to  parallel stream
+        int sum3 = numberStrings.parallelStream()                  // convert the List to  parallel stream
                 .mapToInt(stringNumber -> Integer.parseInt(stringNumber))
-                .filter(i -> i > 10)       // filter only the number > 10  (Predicate)
+                .filter(number -> number > 10)       // filter only the number > 10  (Predicate)
                 .sum();                      // perform sum operation
-        System.out.println(sum2);
+        System.out.println(sum3);
 
     }
 }
