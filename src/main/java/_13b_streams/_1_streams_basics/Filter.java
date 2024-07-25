@@ -6,7 +6,7 @@ import java.util.List;
 public class Filter {
     public static void main(String[] args) {
 
-        // TODO-streams-01:
+        // TODO-streams-01a:
         // - Study how the logic of "display numbers that
         //   are greater than 6 from the numbers array"
         //   written using streams
@@ -16,10 +16,11 @@ public class Filter {
                 .filter(p -> p > 6)
                 .forEach(p -> System.out.println(p + " "));
 
+        // TODO-streams-01b:
         // - Write code to display only odd numbers
         //   from the numbers array
 
-        // TODO-streams-02:
+        // TODO-streams-02a:
         // - Study how the logic of "from a list of number
         //   strings, select numbers whose numeric value
         //   is greater than 10 and compute the sum of it"
@@ -32,12 +33,15 @@ public class Filter {
                 .sum();                    // perform sum operation
         System.out.println(sum1);
 
+        // TODO-streams-02b:
         // - Write code to select only
         //   even numbers and then sum their
         //   square values using streams
 
         // TODO-streams-03:
         // - Study how parallel steam us leveraged
+        // - Use parallel stream for one of the exercise
+        //   above
         int sum2 = numberStrings.parallelStream()                  // convert the List to  parallel stream
                 .mapToInt(stringNumber -> Integer.parseInt(stringNumber))
                 .filter(i -> i > 10)       // filter only the number > 10  (Predicate)
