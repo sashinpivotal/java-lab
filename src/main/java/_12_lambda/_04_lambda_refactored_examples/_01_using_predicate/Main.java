@@ -1,4 +1,4 @@
-package _12_lambda._04_lambda_refactored_examples.using_predicate;
+package _12_lambda._04_lambda_refactored_examples._01_using_predicate;
 
 import java.util.ArrayList;
 import java.util.Arrays;
