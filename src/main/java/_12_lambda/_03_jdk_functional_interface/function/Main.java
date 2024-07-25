@@ -30,14 +30,13 @@ public class Main {
 		doSomething(function2, "JPassion.com");
 		doSomething(function3, "JPassion.com");
 
+		// TODO-lambda-functional-interface-02c:
 		// - Create a Function object, which takes an Integer and returns square value
 		// - Call "apply" method of the function object using appropriate Integer value
-		// - Pass the function object to doSomething(..) method as an argument
-		Function<Integer, Integer> function6
-				= myInteger -> myInteger * myInteger;
-		System.out.println(function6.apply(7));
-		
-		doSomething(function6, 8);
+
+		// TODO-lambda-functional-interface-02d:
+		// - Pass the function object you created above
+		//   to doSomething(..) method as an argument
 
 	}
 
