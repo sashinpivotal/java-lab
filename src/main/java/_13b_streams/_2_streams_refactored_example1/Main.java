@@ -3,13 +3,16 @@ package _13b_streams._2_streams_refactored_example1;
 import java.util.Arrays;
 import java.util.List;
 
-// Compute sum of the numbers that are greater than 10
-// from number list.
+// TODO-streams-04a
+// - Let's say we want to write code to perform:
+//   the following:
+//   - Compute sum of the numbers that are
+//     greater than 10 from number list.
 public class Main {
 
-    //
-    // Non-stream operation (external iteration)
-    //
+    // TODO-streams-04b
+    // - Study how tedious/under-performing the code can
+    //   be if you are NOT using Stream as shown below:
     private static int
     computeSumWithValuesGreaterThan10NotUsingStream(List<Integer> list) {
         int sum = 0;
@@ -24,9 +27,9 @@ public class Main {
         return sum;
     }
 
-    //
-    // Stream operation (internal iteration)
-    //
+    // TODO-streams-04c:
+    // - Study how simple the code can
+    //   be if you ARE using Stream as shown below:
     private static int
     computeSumWithValuesGreaterThan10UsingStream(List<Integer> list) {
         return list.stream()
@@ -39,6 +42,9 @@ public class Main {
                 .sum();
     }
 
+    // TODO-streams-04d:
+    // - Study how simple it is to write code
+    //   that performs the operation in parallel:
     private static int
     computeSumWithValuesGreaterThan10UsingStreamParallel(List<Integer> list) {
         return list.parallelStream()
@@ -59,7 +65,7 @@ public class Main {
         System.out.println("computeSumWithValuesGreaterThan10UsingStreamParallel = "
                 + computeSumWithValuesGreaterThan10UsingStreamParallel(list));
 
-        // TODO-streams-04:
+        // TODO-streams-04e:
         // - Create Stream-based method, in which you filter only
         //   the numbers less than 9 and then display the max number
         List<String> numberStrings = Arrays.asList("3", "8", "14", "11");

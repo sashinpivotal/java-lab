@@ -5,12 +5,15 @@ import java.util.stream.Collectors;
 
 public class Main {
 
-    // You want to
+    // TODO-streams-05a
+    // - Let's say we want to write code to perform:
+    //   the following:
     // (1) find all transactions of type Grocery and
     // (2) return a list of transaction IDs
     // (3) sorted in decreasing order of transaction value
     public static void main(String[] args) {
 
+        // Create test data
         List<Transaction> transactions = Arrays.asList(
                 new Transaction(1, TransactionType.GROCERY, 100),
                 new Transaction(2, TransactionType.DESK, 300),
@@ -26,7 +29,7 @@ public class Main {
         transactionIds = getGroceryTransactionIdsUsingStream(transactions);
         transactionIds.forEach(id -> System.out.println("transaction id = " + id));
 
-        // TODO-streams-05c: (Optional)
+        // TODO-streams-05d:
         // - Create Product, which has Integer productId,
         //   ProductType productType, and Integer price fields
         // - Create ProductType as a enum, which has BOOK,
@@ -37,7 +40,7 @@ public class Main {
 
     }
 
-    // TODO-streams-05a:
+    // TODO-streams-05b:
     // - Study how tedious/under-performing the code can
     //   be if you are NOT using Stream as shown below:
     //
@@ -68,7 +71,7 @@ public class Main {
         return transactionIds;
     }
 
-    // TODO-streams-05b:
+    // TODO-streams-05c:
     // - Study how simple the code can
     //   be if you ARE using Stream as shown below:
     //
