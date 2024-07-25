@@ -1,4 +1,4 @@
-package _12_lambda._05_method_reference;
+package _12_lambda._06_method_reference;
 
 // Let's say you have defined a functional interface @FunctionalInterface
 interface MyFunctionalInterface {

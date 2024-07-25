@@ -1,4 +1,4 @@
-package _12_lambda._06_custom_functional_interface;
+package _12_lambda._05_custom_functional_interface;
 
 @FunctionalInterface
 public interface MyFunctionalInterfaceLower {
