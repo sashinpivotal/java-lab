@@ -16,10 +16,12 @@ public class MyClass {
 class Main {
     public static void main(String[] args) {
         // You would write a lambda expression as following if you want to use the existing static method of the class
-        MyFunctionalInterface myObject2 = (name, age) -> MyClass.existingStaticMethod(name, age);
+        MyFunctionalInterface myObject2
+                = (name, age) -> MyClass.existingStaticMethod(name, age);
         myObject2.mySingleAbstractMethod("Jon", 77);
         // The above lambda expression can be rewritten using a static method reference
-        MyFunctionalInterface myObject3 = MyClass::existingStaticMethod;
+        MyFunctionalInterface myObject3
+                = MyClass::existingStaticMethod;
         myObject3.mySingleAbstractMethod("Jon", 66);
     }
 }
