@@ -9,7 +9,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		// TODO-lambda-functional-interface-02:
+		// TODO-lambda-functional-interface-03a:
 		// - Study how lambda objects of
 		//   Predicate functional interface type
 		//   are defined and invoked below
@@ -25,9 +25,10 @@ public class Main {
 		BiPredicate<String, Integer> predicate4 = (x, y) -> x.length() > y;
 		System.out.println(predicate4.test("JPassion.com", 5));
 
-		// - Create Predicate object which receives a Date object and returns
+		// TODO-lambda-functional-interface-03b:
+		// - Study how Predicate object which receives a Date object and returns
 		//   true if the Date is later than the current date and time and 
-		//   false otherwise
+		//   false otherwise is used
 		Predicate<Date> myPredicate = date -> {
 			// Set current time
 			Calendar calendarCurrentTime = Calendar.getInstance();
