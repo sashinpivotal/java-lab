@@ -13,8 +13,9 @@ public class Filter {
         List<Integer> numbers
                 = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8);
         numbers.stream()
-                .filter(p -> p > 6)
-                .forEach(p -> System.out.println(p + " "));
+                .filter(number -> number > 6)
+                .forEach(number -> System.out.print(number + " "));
+        System.out.println();
 
         // TODO-streams-01b:
         // - Write code to display only odd numbers
@@ -29,7 +30,7 @@ public class Filter {
                 = Arrays.asList("5", "16", "8", "24", "5");
         int sum1 = numberStrings.stream()                  // convert the List to  sequential stream
                 .mapToInt(stringNumber -> Integer.parseInt(stringNumber))
-                .filter(i -> i > 10)       // filter only the number > 10  (Predicate)
+                .filter(number -> number > 10)       // filter only the number > 10  (Predicate)
                 .sum();                    // perform sum operation
         System.out.println(sum1);
 
@@ -44,7 +45,7 @@ public class Filter {
         //   above
         int sum2 = numberStrings.parallelStream()                  // convert the List to  parallel stream
                 .mapToInt(stringNumber -> Integer.parseInt(stringNumber))
-                .filter(i -> i > 10)       // filter only the number > 10  (Predicate)
+                .filter(number -> number > 10)       // filter only the number > 10  (Predicate)
                 .sum();                      // perform sum operation
         System.out.println(sum2);
 
