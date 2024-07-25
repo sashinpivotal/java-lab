@@ -2,6 +2,7 @@ package _13b_streams._2_streams_refactored_example1;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.OptionalInt;
 
 // TODO-streams-04a
 // - Let's say we want to write code to perform:
@@ -69,7 +70,12 @@ public class Main {
         // - Create Stream-based method, in which you filter only
         //   the numbers less than 9 and then display the max number
         List<String> numberStrings = Arrays.asList("3", "8", "14", "11");
+        int max = numberStrings.stream()
+                .mapToInt(stringNumber -> Integer.parseInt(stringNumber))
+                .filter(number -> number > 9)
+                .max()
+                .getAsInt();
+        System.out.println(max);
 
     }
-
 }
