@@ -32,5 +32,9 @@ class Main {
         MyFunctionalInterface myObject3
                 = MyClass::existingStaticMethod;
         myObject3.mySingleAbstractMethod("Jon", 66);
+
+        // TODO-method-reference-02
+        // - Use IntelliJ to convert lambda expression above
+        //   to method reference and vice versa
     }
 }
