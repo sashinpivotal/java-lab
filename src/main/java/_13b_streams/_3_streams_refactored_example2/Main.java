@@ -21,6 +21,14 @@ public class Main {
                 new Transaction(4, TransactionType.GROCERY, 150),
                 new Transaction(5, TransactionType.CHAIR, 80));
 
+        // Create test data
+        List<Product> products = Arrays.asList(
+                new Product(1, ProductType.BOOK, 100),
+                new Product(2, ProductType.FOOD, 300),
+                new Product(3, ProductType.BOOK, 250),
+                new Product(4, ProductType.ELECTRONICS, 150),
+                new Product(5, ProductType.ELECTRONICS, 80));
+
         System.out.println("---- Non-stream (External iteration) operation ----");
         List<Integer> transactionIds = getGroceryTransactionIdsNotUsingStream(transactions);
         transactionIds.forEach(id -> System.out.println("transaction id = " + id));
@@ -37,6 +45,15 @@ public class Main {
         // - Add appropriate initial test data
         // - Using stream, get a list of Product Id's of the
         //   ELECTRONICS reverse sorted on the price
+        List<Integer> productIds
+                = products
+                .parallelStream()
+                .filter(product
+                        -> product.getProductType().equals(ProductType.ELECTRONICS))
+                .sorted(Comparator.comparing(Product::getPrice).reversed())
+                .map(Product::getProductId)
+                .collect(Collectors.toList());
+        productIds.forEach(id -> System.out.println("product id = " + id));
 
     }
 
