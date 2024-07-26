@@ -23,6 +23,13 @@ public class Main {
                 new Fruit("Banana", 33)};
         List<Fruit> fruits = Arrays.asList(fruitArray);
 
+        Sport[] sportArray = {
+                new Sport("football"),
+                new Sport("swimming"),
+                new Sport("baseball")
+        };
+        List<Sport> sports = Arrays.asList(sportArray);
+
         // TODO-lambda-refactored-01:
         // - Study the 4 different ways from least
         //   desirable approach to the most below
@@ -100,6 +107,16 @@ public class Main {
         //      - name (i.e. "football", "swimming", "baseball")
         // - Write code to convert the name of sport
         //   to CamelCase using convert method
+        Function<Sport, Sport> aFunction5 =
+                sport ->{
+                    String camelCaseName
+                            = sport.getName().substring(0, 1).toUpperCase() +
+                            sport.getName().substring(1).toLowerCase();
+                    sport.setName(camelCaseName);
+                    return sport;
+                };
+        convert(sports, aFunction5);
+        displayResult("solution--> ", sports);
 
         // #4: Use a stream
         Stream<Person> resultPeople1 =
@@ -109,6 +126,7 @@ public class Main {
                             return person;
                         });
         resultPeople1.forEach(person -> System.out.print(person.getName() + " "));
+        System.out.println();
 
         Stream<Person> resultPeople2 =
                 people.stream()
@@ -117,10 +135,14 @@ public class Main {
                             return person;
                         });
         resultPeople2.forEach(person -> System.out.print(person.getName() + " "));
+        System.out.println();
 
         // TODO-lambda-refactor-06
         // - Write code to convert the name of sport
         //   to CamelCase using stream
+        sports.stream()
+                .map(aFunction5)
+                .forEach(sport -> System.out.print(sport.getName() + " "));
 
     }
 
