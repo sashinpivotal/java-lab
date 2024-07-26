@@ -72,7 +72,14 @@ public class CalculatorTest {
     // TODO-junit5-03
     // - write "negative" test for the divide() method
     //   so that when the divisor is 0, the divide() method
-    //   should throw IllegalArgumentException
+    //   should throw ArithmeticException
+    @Test
+    public void _divide_should_throw_IllegalArgumentException_given_zero_divisor() {
+        assertThrows(
+                ArithmeticException.class, () -> {
+                    calculator.divide(3, 0);
+                });
+    }
 
 
     // TODO-junit5-00c
