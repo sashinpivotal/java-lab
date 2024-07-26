@@ -28,6 +28,8 @@ public class DepartmentTest {
     // TODO-16: Write appropriate test code by reading the test method name
     @Test
     public void computeDepartmentMonthlyTotalCompensation_should_return_total_monthly_compensation() {
-
+        double departmentMonthlyTotalCompensation
+                = department.computeDepartmentMonthlyTotalCompensation();
+        assertEquals(5000.0, departmentMonthlyTotalCompensation);
     }
 }
