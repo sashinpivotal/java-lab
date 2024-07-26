@@ -24,6 +24,12 @@ public class Main {
                 new Fruit("Banana", 33)};
         List<Fruit> fruits = Arrays.asList(fruitArray);
 
+        Sport[] sportArray = {
+                new Sport("football"),
+                new Sport("swimming"),
+                new Sport("baseball")
+        };
+
         // TODO-lambda-refactored-02:
         // - Study the 4 different ways from least
         //   desirable approach to the most below
@@ -52,6 +58,7 @@ public class Main {
         // TODO-lambda-refactor-01
         // - Write code to find people whose name contains
         //   "on" and whose age is over 10
+
 
         // #3: call methods which use predicate with generic type
         peopleResult = find(people,
