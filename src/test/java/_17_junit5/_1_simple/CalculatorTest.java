@@ -152,5 +152,17 @@ public class CalculatorTest {
     // TODO-junit5-04
     // - write parameterized test for
     //   multiply() method
+    @ParameterizedTest
+    @CsvSource({
+            "0, 1, 0",
+            "1, 2, 2",
+            "10, 20, 200",
+            "1, 100, 100"})
+    void multiplyTest_with_parameters(int first, int second, int expectedResult) {
+        Calculator calculator = new Calculator();
+        int actualResult = calculator.multiply(first, second);
+        assertEquals(expectedResult, actualResult);
+    }
+
 
 }
