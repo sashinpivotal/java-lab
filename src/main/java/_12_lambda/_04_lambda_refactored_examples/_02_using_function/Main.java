@@ -12,9 +12,9 @@ public class Main {
         // Create test data
         Person[] personArray = {
                 new Person("John", 5),
-                new Person("Mary", 12),
+                new Person("MARY", 12),
                 new Person("David", 17),
-                new Person("Tom", 13)};
+                new Person("TOM", 13)};
         List<Person> people = Arrays.asList(personArray);
 
         Fruit[] fruitArray = {
