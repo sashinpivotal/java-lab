@@ -57,7 +57,8 @@ public class Main {
         displayResult("---->#2c: ", peopleResult);
         // TODO-lambda-refactor-01
         // - Write code to find people whose name contains
-        //   "on" and whose age is over 10
+        //   "on" and whose age is over 10 using findPeople
+        //   method
 
 
         // #3: call methods which use predicate with generic type
@@ -87,7 +88,7 @@ public class Main {
         //   the following fields
         //      - name (i.e. "football", "swimming", "baseball")
         // - Write code to find sport whose name starts
-        //   with "b" or "B"
+        //   with "b" or "B" using find method
 
         // #4: Use a stream
         Stream<Person> resultPeople = people.stream()
@@ -102,7 +103,7 @@ public class Main {
 
         // TODO-lambda-refactor-03
         // - Write code to find sport whose name starts
-        //   with "b" or "B"
+        //   with "b" or "B" using stream
 
     }
 
