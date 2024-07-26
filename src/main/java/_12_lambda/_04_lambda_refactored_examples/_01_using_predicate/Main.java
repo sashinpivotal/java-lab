@@ -29,6 +29,7 @@ public class Main {
                 new Sport("swimming"),
                 new Sport("baseball")
         };
+        List<Sport> sports = Arrays.asList(sportArray);
 
         // TODO-lambda-refactored-02:
         // - Study the 4 different ways from least
@@ -59,7 +60,10 @@ public class Main {
         // - Write code to find people whose name contains
         //   "on" and whose age is over 10 using findPeople
         //   method
-
+        List<Person> peopleResult2 = finePeople(people,
+                person -> person.getName().contains("on") &&
+                        person.getAge() > 10);
+        displayResult("solution-> ", peopleResult2);
 
         // #3: call methods which use predicate with generic type
         peopleResult = find(people,
@@ -89,6 +93,9 @@ public class Main {
         //      - name (i.e. "football", "swimming", "baseball")
         // - Write code to find sport whose name starts
         //   with "b" or "B" using find method
+        List<Sport> sports1 = find(sports,
+                sport -> sport.getName().toLowerCase().startsWith("b"));
+        displayResult("solution-> ", sports1);
 
         // #4: Use a stream
         Stream<Person> resultPeople = people.stream()
