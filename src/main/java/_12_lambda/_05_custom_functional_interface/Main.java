@@ -23,12 +23,25 @@ class Main {
         //   object of MyFunctionalInterfaceLower type
         // - Invoke the method of the functional
         //   interface and display the result
+        MyFunctionalInterfaceLower myObject3
+                = new MyFunctionalInterfaceLower() {
+            @Override
+            public String makeLowerCase(String string) {
+                return string.toLowerCase();
+            }
+        };
+        String boston = myObject3.makeLowerCase("Boston");
+        System.out.println(boston);
 
         // TODO-custom-fi-02:
         // - Use Lambda to create an object of
         //   MyFunctionalInterfaceLower type
         // - Invoke the method of the functional
         //   interface and display the result
+        MyFunctionalInterfaceLower myObject4
+                = string -> string.toLowerCase();
+        String boston1 = myObject4.makeLowerCase("Boston");
+        System.out.println(boston1);
 
     }
 }
