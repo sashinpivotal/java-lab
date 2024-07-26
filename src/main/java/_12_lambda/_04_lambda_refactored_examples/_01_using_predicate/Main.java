@@ -49,6 +49,9 @@ public class Main {
                 person -> person.getName().startsWith("J")
                         && person.getAge() > 10);
         displayResult("---->#2c: ", peopleResult);
+        // TODO-lambda-refactor-01
+        // - Write code to find people whose name contains
+        //   "on" and whose age is over 10
 
         // #3: call methods which use predicate with generic type
         peopleResult = find(people,
@@ -72,6 +75,13 @@ public class Main {
                 .startsWith("A") && fruit.getQuantity() > 10);
         displayResult("---->#3f: ", fruitResult);
 
+        // TODO-lambda-refactor-02
+        // - Create an array of Sport type, which has
+        //   the following fields
+        //      - name (i.e. "football", "swimming", "baseball")
+        // - Write code to find sport whose name starts
+        //   with "b" or "B"
+
         // #4: Use a stream
         Stream<Person> resultPeople = people.stream()
                 .filter(person -> person.getAge() > 10);
@@ -82,6 +92,10 @@ public class Main {
                 .filter(fruit -> fruit.getQuantity() > 10);
         System.out.print("\n---->#4b: ");
         resultFruits.forEach(fruit -> System.out.print(fruit.getName() + " "));
+
+        // TODO-lambda-refactor-03
+        // - Write code to find sport whose name starts
+        //   with "b" or "B"
 
     }
 
