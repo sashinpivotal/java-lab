@@ -1,4 +1,4 @@
-package _12_lambda._04_lambda_refactored_examples.using_predicate;
+package _12_lambda._04_lambda_refactored_examples._02_using_function;
 
 public class Person {
     private String name;
