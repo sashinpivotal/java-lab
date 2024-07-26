@@ -62,7 +62,7 @@ public class CalculatorTest {
     // TODO-junit5-03
     // - write "negative" test for the divide() method
     //   so that when the divisor is 0, the divide() method
-    //   should throw IllegalArgumentException
+    //   should throw ArithmeticException
 
 
     // TODO-junit5-00c
