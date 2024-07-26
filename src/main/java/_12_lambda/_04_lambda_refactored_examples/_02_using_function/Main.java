@@ -52,6 +52,9 @@ public class Main {
                     return person;
                 });
         displayResult("---->#2b: ", people);
+        // TODO-lambda-refactor-04
+        // - Write code to convert the name of a person to
+        //   CamelCase using convertPeople method
 
         // #3: call methods which use Function with generic type
         Function<Person, Person> aFunction1 =
@@ -82,6 +85,12 @@ public class Main {
                 };
         convert(fruits, aFunction4);
         displayResult("---->#3a: ", fruits);
+        // TODO-lambda-refactor-05
+        // - Create an array of Sport type, which has
+        //   the following fields
+        //      - name (i.e. "football", "swimming", "baseball")
+        // - Write code to convert the name of sport
+        //   to CamelCase using convert method
 
         // #4: Use a stream
         Stream<Person> resultPeople1 =
@@ -99,6 +108,10 @@ public class Main {
                             return person;
                         });
         resultPeople2.forEach(person -> System.out.print(person.getName() + " "));
+
+        // TODO-lambda-refactor-06
+        // - Write code to convert the name of sport
+        //   to CamelCase using stream
 
     }
 
