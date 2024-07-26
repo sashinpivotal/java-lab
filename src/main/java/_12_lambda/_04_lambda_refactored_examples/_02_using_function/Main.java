@@ -12,9 +12,9 @@ public class Main {
         // Create test data
         Person[] personArray = {
                 new Person("John", 5),
-                new Person("Mary", 12),
+                new Person("MARY", 12),
                 new Person("David", 17),
-                new Person("Tom", 13)};
+                new Person("TOM", 13)};
         List<Person> people = Arrays.asList(personArray);
 
         Fruit[] fruitArray = {
@@ -55,6 +55,15 @@ public class Main {
         // TODO-lambda-refactor-04
         // - Write code to convert the name of a person to
         //   CamelCase using convertPeople method
+        convertPeople(people,
+                person -> {
+                    String camelCaseName
+                            = person.getName().substring(0, 1).toUpperCase() +
+                              person.getName().substring(1).toLowerCase();
+                    person.setName(camelCaseName);
+                    return person;
+                });
+        displayResult("solution--> ", people);
 
         // #3: call methods which use Function with generic type
         Function<Person, Person> aFunction1 =
