@@ -10,8 +10,8 @@ public class Main {
         // - Type "java -version"
 
         // TODO-IDE-01: shortcut keys for running an app
-        // - Run this app using shortcut key "CTRL+SHIFT+F10"
-        // - Rerun the app using shortcut key "SHIFT+F10" thereafter
+        // - Run this app using shortcut key "CTRL+SHIFT+F10" (for Windows VM)
+        // - Rerun the app using shortcut key "SHIFT+F10" thereafter (for Windows VM)
         // - For useful shortcut keys, see https://github.com/sashinpivotal/java-tips
 
         // TODO-IDE-02: context-sensitive Javadoc
