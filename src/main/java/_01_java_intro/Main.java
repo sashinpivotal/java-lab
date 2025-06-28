@@ -37,7 +37,7 @@ public class Main {
         System.out.println("This is another line in the program");
 
         // TODO-IDE-03: TODO's in IntelliJ
-        // - Click "TO DO" at the bottom of the IntelliJ
+        // - Select View->Tool Windows->TODO
         //   to display all exercise tasks to be performed
         //   (Instructor will demonstrate how it is done.)
     }
