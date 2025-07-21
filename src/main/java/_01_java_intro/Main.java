@@ -17,17 +17,18 @@ public class Main {
         // TODO-IDE-02: context-sensitive Javadoc
         // You are going to configure IntelliJ so that
         // you can display Javadoc of all JDK classes.
-        // - Download and unzip JDK 11 javadoc zip file
-        //   from https://www.oracle.com/java/technologies/javase-jdk11-doc-downloads.html
+        // - Download and unzip JDK 17 javadoc zip file
+        //   from https://www.oracle.com/java/technologies/javase-jdk17-doc-downloads.html
+        //   (or whatever JDK version of your choice)
         // - Configure JDK documentation to your IntelliJ
         //   so that you can display Javadoc of a class
         //   in a context-sensitive fashion:
         //   - Select File -> Project Structure
-        //   - Select Platform Settings -> SDKs -> 11 -> Documentation Paths
+        //   - Select Platform Settings -> SDKs -> 17 -> Documentation Paths
         //   - Click + sign and add ./docs/api of
         //     downloaded and unzipped path
         // - If you want to display Javadoc of "System"
-        //   class in a context sensitive fashion, do
+        //   class in a context sensitive fashion in a browser, do
         //   the following:
         //   - move your cursor to "System" and press
         //     SHIFT+F1 and you will see the Javadoc
