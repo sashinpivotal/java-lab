@@ -11,7 +11,7 @@ public class _1_Variables {
         //   - this will allow you to retrieve any
         //     changes from the remote repository
         //     without experiencing merge conflict
-        // - Buf if you are comfortable with handling
+        // - But if you are comfortable with handling
         //   possible merge conflict, you can start making
         //   changes in the master/main branch
         // - Regardless you use different branch or not,
