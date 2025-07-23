@@ -63,7 +63,7 @@ public class Main {
         int result2 = calculator2.add();
         System.out.println(result2);
 
-        // Use static method with class-wide state - DON"T DO THIS
+        // Use static method with class-wide state - DON'T DO THIS
         Calculator3.setX(2);
         Calculator3.setY(3);
         int result3 = Calculator3.add();
