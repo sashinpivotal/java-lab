@@ -9,11 +9,27 @@ public class Car extends Vehicle {
         super(vin);
     }
 
+    public String getMake() {
+        return make;
+    }
+
+    public void setMake(String make) {
+        this.make = make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
     @Override
     public String toString() {
         return "Car{" +
                 "vin='" + getVin() + '\'' +
-                "make='" + make + '\'' +
+                ", make='" + make + '\'' +
                 ", model='" + model + '\'' +
                 '}';
     }
