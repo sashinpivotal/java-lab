@@ -54,6 +54,7 @@ public class Account {
             logger.log(INFO,
                     "balance {0} is smaller than withdrawal amount {1}",
                     arguments);
+            return;
         }
         balance -= amount;
 
