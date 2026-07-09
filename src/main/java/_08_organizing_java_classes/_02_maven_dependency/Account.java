@@ -58,6 +58,7 @@ public class Account {
             System.out.printf(
                     "balance %.2f is smaller than withdrawal amount %.2f"
                     , balance, amount);
+            return;
         }
         balance -= amount;
 
