@@ -1,4 +1,4 @@
-package _17_junit5._1_simple;
+package _18_junit5._1_simple;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package _11_interface.animal_example;
+package _11b_interface.animal_example;
 
 public class Monkey implements IBreathable{
     @Override
