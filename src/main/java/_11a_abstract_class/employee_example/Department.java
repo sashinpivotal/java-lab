@@ -1,4 +1,4 @@
-package _10a_abstract_class.employee_example;
+package _11a_abstract_class.employee_example;
 
 public class Department {
 

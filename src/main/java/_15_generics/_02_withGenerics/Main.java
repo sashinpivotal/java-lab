@@ -1,9 +1,6 @@
-package _13a_generics._02_withGenerics;
+package _15_generics._02_withGenerics;
 
-import _13a_generics._01_withoutGenerics.Customer;
-import _13a_generics._01_withoutGenerics.MyClassCustomer;
-import _13a_generics._01_withoutGenerics.MyClassWithInteger;
-import _13a_generics._01_withoutGenerics.MyClassWithLong;
+import _15_generics._01_withoutGenerics.Customer;
 
 public class Main {
     public static void main(String[] args) {

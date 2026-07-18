@@ -1,4 +1,4 @@
-package _13b_streams._1_streams_basics;
+package _17_streams._1_streams_basics;
 
 import java.util.Optional;
 import java.util.stream.Stream;
