@@ -10,7 +10,7 @@ public class IfElseIf_1 {
         //   `a` is positive, zero or negative, and
         //   print the result.
         // - Run the program a few times,
-        //   each time changing the int value, e.g. -5, 0. 23
+        //   each time changing the int value, e.g. -5, 0, 23
 
     }
 }
