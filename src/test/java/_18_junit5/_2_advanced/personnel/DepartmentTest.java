@@ -1,8 +1,8 @@
-package _17_junit5._2_advanced.personnel;
+package _18_junit5._2_advanced.personnel;
 
 
-import _17_junit5._2_advanced.hr.personnel.Department;
-import _17_junit5._2_advanced.hr.personnel.SalariedEmployee;
+import _18_junit5._2_advanced.hr.personnel.Department;
+import _18_junit5._2_advanced.hr.personnel.SalariedEmployee;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

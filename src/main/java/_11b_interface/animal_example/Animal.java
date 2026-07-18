@@ -1,4 +1,4 @@
-package _11_interface.animal_example;
+package _11b_interface.animal_example;
 
 // TODO-interface-02
 // - Observe that the Animal and Human classes are

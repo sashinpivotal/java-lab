@@ -1,6 +1,6 @@
-package _17_junit5._2_advanced.hr.corp;
+package _18_junit5._2_advanced.hr.corp;
 
-import _17_junit5._2_advanced.irs.TaxPayer;
+import _18_junit5._2_advanced.irs.TaxPayer;
 
 public class Corporation implements TaxPayer {
 

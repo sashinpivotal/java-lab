@@ -1,4 +1,4 @@
-package _10a_abstract_class.animal_examples;
+package _11a_abstract_class.animal_examples;
 
 // TODO-abstract-class-01
 // - Observe that the Animal class below is an

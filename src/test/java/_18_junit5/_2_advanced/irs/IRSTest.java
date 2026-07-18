@@ -1,8 +1,8 @@
-package _17_junit5._2_advanced.irs;
+package _18_junit5._2_advanced.irs;
 
-import _17_junit5._2_advanced.hr.corp.Corporation;
-import _17_junit5._2_advanced.hr.personnel.HourlyEmployee;
-import _17_junit5._2_advanced.hr.personnel.SalariedEmployee;
+import _18_junit5._2_advanced.hr.corp.Corporation;
+import _18_junit5._2_advanced.hr.personnel.HourlyEmployee;
+import _18_junit5._2_advanced.hr.personnel.SalariedEmployee;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;

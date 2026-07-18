@@ -1,4 +1,4 @@
-package _11_interface.employee_example;
+package _11b_interface.employee_example;
 
 public class Department {
 

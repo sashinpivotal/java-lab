@@ -1,4 +1,4 @@
-package _13a_generics._01_withoutGenerics;
+package _15_generics._01_withoutGenerics;
 
 public class Main {
     public static void main(String[] args) {

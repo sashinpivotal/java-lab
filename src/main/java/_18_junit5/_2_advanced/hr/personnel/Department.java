@@ -1,4 +1,4 @@
-package _17_junit5._2_advanced.hr.personnel;
+package _18_junit5._2_advanced.hr.personnel;
 
 public class Department {
 

@@ -1,4 +1,4 @@
-package _10a_abstract_class.animal_examples;
+package _11a_abstract_class.animal_examples;
 
 class AnimalHospital {
 

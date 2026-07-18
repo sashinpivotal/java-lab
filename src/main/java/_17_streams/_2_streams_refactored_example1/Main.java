@@ -1,4 +1,4 @@
-package _13b_streams._2_streams_refactored_example1;
+package _17_streams._2_streams_refactored_example1;
 
 import java.util.Arrays;
 import java.util.List;
