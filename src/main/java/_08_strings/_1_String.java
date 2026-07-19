@@ -1,6 +1,4 @@
-package _09_strings;
-
-import java.time.LocalDate;
+package _08_strings;
 
 public class _1_String {
 

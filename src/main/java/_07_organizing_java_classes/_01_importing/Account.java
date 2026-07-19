@@ -1,4 +1,4 @@
-package _08_organizing_java_classes._01_importing;
+package _07_organizing_java_classes._01_importing;
 
 public class Account {
 

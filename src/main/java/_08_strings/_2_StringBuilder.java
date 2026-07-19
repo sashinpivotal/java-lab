@@ -1,4 +1,4 @@
-package _09_strings;
+package _08_strings;
 
 public class _2_StringBuilder {
     public static void main(String[] args) {
