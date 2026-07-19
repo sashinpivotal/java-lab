@@ -5,20 +5,6 @@ import javax.sound.midi.Soundbank;
 public class _1_Variables {
     public static void main(String[] args) {
 
-        // TODO-variables-00 (Optional)
-        // - Do "git checkout -b _02_java_basics"
-        //   before making any changes
-        //   - this will allow you to retrieve any
-        //     changes from the remote repository
-        //     without experiencing merge conflict
-        // - But if you are comfortable with handling
-        //   possible merge conflict, you can start making
-        //   changes in the master/main branch
-        // - Regardless you use different branch or not,
-        //   when you are done with your change,
-        //   you can commit the changes by
-        //   git commit -am "my change message"
-
         // TODO-variables-01:
         // - Create a variable called "name" with proper type
         //   and assign your name to it.
