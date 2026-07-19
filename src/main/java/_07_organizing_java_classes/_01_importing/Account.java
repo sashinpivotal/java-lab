@@ -1,4 +1,4 @@
-package _08_organizing_java_classes._01_importing;
+package _07_organizing_java_classes._01_importing;
 
 import java.util.logging.Logger;
 import static java.util.logging.Level.INFO;
