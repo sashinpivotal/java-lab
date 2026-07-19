@@ -5,9 +5,6 @@ public class Main {
     // The following is what used to be done
     // before enum type was introduced
     public static final String PC = "PC";
-    public static final String TABLET = "TABLET";
-    public static final String PHONE = "PHONE";
-    public static final String TV = "TV";
 
     public static void main(String[] args) {
 
@@ -16,14 +13,11 @@ public class Main {
         buyComputerMethodUsingPublicStaticFinalConstants(PC, 4);
 
         // TODO-enum-01
-        // - Write an enum class called "ComputerType"
-        //   with the following values
-        //   - "PC", "TABLET", "PHONE"
+        // enum class ComputerType is defined in ComputerType.java
 
         // TODO-enum-02
-        // - Uncomment and finish the code below - it is a refactored
-        //   version of the method used above now using enum type
-        // buyComputerMethodUsingEnum(..);
+        // - Refactored version of the method used above now using enum type
+        buyComputerMethodUsingEnum(ComputerType.PC, 4);
     }
 
     // use public static final
@@ -32,10 +26,9 @@ public class Main {
     }
 
     // TODO-enum-03
-    // - Uncomment and finish the code below
-    //public static void buyComputerMethodUsingEnum(.., int quantity) {
-    //    System.out.println(..);
-    //}
+    public static void buyComputerMethodUsingEnum(ComputerType computerType, int quantity) {
+        System.out.println(computerType);
+    }
 
 }
 
