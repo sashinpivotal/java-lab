@@ -1,4 +1,4 @@
-package _07_more_on_classes._02_static_methods;
+package _05_more_on_classes._02_static_methods;
 
 
 // TODO-static-method_05

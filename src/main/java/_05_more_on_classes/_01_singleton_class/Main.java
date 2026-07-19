@@ -1,4 +1,4 @@
-package _07_more_on_classes._01_singleton_class;
+package _05_more_on_classes._01_singleton_class;
 
 public class Main {
 
