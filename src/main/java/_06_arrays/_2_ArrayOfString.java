@@ -13,6 +13,8 @@ public class _2_ArrayOfString {
         familyMembers[0] = "Dan";
         familyMembers[1] = "Mary";
         familyMembers[2] = "Tom";
+        String family = Arrays.toString(familyMembers);
+        System.out.println(family);
 
         // TODO-arrays-04: null elements in an array
         // - Display only elements of familyMembers array
